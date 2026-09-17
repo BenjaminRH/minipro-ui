@@ -1,0 +1,126 @@
+Screen { background: #10171f; color: #dce5ee; }
+TabbedContent { height: 1fr; }
+Tabs { height: 4; background: #18232e; }
+Tabs #tabs-list { align-horizontal: center; }
+Tab { height: 3; padding: 1 1; }
+Tab.-active { background: #245047; text-style: bold; }
+Tab:disabled { color: #65737e; }
+TabPane { padding: 1 2; }
+
+/* One status line: connection and operation on the left, navigation on the right. */
+BottomBar { dock: bottom; height: 1; background: #182b32; overflow: hidden; }
+BottomBar .connection { width: 1fr; min-width: 0; height: 1; color: #84d8c1; text-wrap: nowrap; text-overflow: ellipsis; }
+BottomBar .shortcuts { width: auto; height: 1; color: #becdd8; text-align: right; text-wrap: nowrap; }
+
+#programmer-info { height: auto; margin: 1 0; }
+#programmers .muted { margin: 1 0; }
+#device-options { height: 3; margin-top: 1; align-horizontal: right; }
+#device-options .connection-label { width: 12; height: 3; content-align: left middle; }
+#interface { width: 30; margin-right: 2; }
+#to-operation { width: 12; }
+#device-browser { height: 1fr; min-height: 7; }
+#device-search-pane { width: 1fr; margin-right: 2; }
+#matches { width: 100%; height: 1fr; border: solid #304453; }
+#device-info-pane { width: 1fr; padding: 1; border: solid #304453; }
+#device-info { height: auto; }
+#device { color: #84d8c1; margin-top: 1; height: 1; text-wrap: nowrap; text-overflow: ellipsis; }
+
+#description { height: auto; color: #afbdca; margin: 1 0; }
+#file-fields, #memory-fields { height: auto; margin: 1 0; }
+.form-label { margin-bottom: 1; }
+#operation { margin: 0 0 1 0; }
+#file-label, #memory-fields > .form-label { margin-bottom: 1; }
+#memory-help { height: auto; margin-bottom: 1; }
+.file-row { height: 3; }
+.file-row Input { width: 1fr; }
+.file-row Button { width: 12; }
+#job-error, #file-error { height: auto; color: #f6bc8a; }
+#memory-source, #backend-details { height: auto; }
+#memory-log, #raw-log { height: 1fr; }
+#memory-source { color: #9cabb9; margin-bottom: 1; }
+#memory-columns { height: 2; border-bottom: solid #293742; text-wrap: nowrap; }
+#memory-log { background: #10171f; overflow-x: hidden; overflow-y: auto; }
+#settings-fields { height: 1fr; }
+.setting-group { height: auto; padding: 0 0 1 0; margin-bottom: 1; border-bottom: solid #293742; }
+.setting-group .heading { margin-bottom: 1; }
+.setting-group Input { margin: 1 0; }
+.setting-group .file-row { margin: 1 0; }
+.setting-group .file-row Input { margin: 0; }
+.setting-group .image-directory-warning { height: auto; margin: 0 0 1 0; color: #f6bc8a; }
+#used-minipro { height: auto; color: #84d8c1; }
+#backend-details { margin-top: 1; }
+#save-log { margin-bottom: 1; }
+#log-path:disabled { opacity: 45%; }
+#save-settings { margin-top: 1; }
+#extract-xgpro { margin: 1 0; }
+#xgpro-download { margin: 1 0; }
+#extract-status { height: auto; margin: 1 0; color: #f6bc8a; }
+.eyebrow { color: #76cdbb; text-style: bold; height: auto; }
+.heading { text-style: bold; height: auto; }
+.muted { color: #9cabb9; height: auto; }
+Button { border: tall #304453; background: #20313d; color: #dce5ee; }
+Button.-primary { background: #245d54; border: tall #34776b; color: #edfff9; }
+Button:focus { text-style: bold; border: tall #81dec9; }
+Input, SelectCurrent { background: #17232e; border: tall #304453; }
+Input:focus { border: tall #81dec9; }
+
+ModalScreen { align: center middle; background: #070d15 75%; }
+#dialog { width: 76; max-width: 95%; height: 85%; max-height: 40; padding: 1 2; border: round #59847d; background: #18232e; }
+#dialog.wide { width: 100; }
+#dialog > .eyebrow { margin-bottom: 1; }
+#dialog Static { height: auto; }
+#dialog VerticalScroll { height: 1fr; margin: 1 0; }
+FileScreen #dialog, DirectoryScreen #dialog { height: 100%; }
+FileScreen #path, DirectoryScreen #path { margin-bottom: 1; }
+FileScreen #file-tree, DirectoryScreen #file-tree { min-height: 2; margin-bottom: 1; }
+FileScreen #dialog > .muted, DirectoryScreen #dialog > .muted { margin-bottom: 1; }
+ExtractImagesScreen #extract-fields { min-height: 3; }
+ExtractImagesScreen #extract-fields > .eyebrow { margin-bottom: 1; }
+ExtractImagesScreen #extract-fields > .muted { margin: 0 0 1 0; }
+ExtractImagesScreen #extract-fields > .heading { margin: 1 0; }
+ExtractImagesScreen #extract-fields > .file-row { margin-bottom: 1; }
+ExtractImagesScreen #extract-fields > #extract-status { margin: 1 0; }
+HelpScreen #dialog { height: 90%; padding: 0 2; }
+HelpScreen .help-section { height: auto; margin-bottom: 1; }
+HelpScreen .help-section .heading { color: #dce5ee; }
+HelpScreen .help-section Static { color: #afbdca; }
+HelpScreen .help-keys { width: 100%; border-top: solid #304453; padding-top: 1; margin-bottom: 1; }
+.buttons { height: 3; align-horizontal: right; }
+.buttons Button { margin-left: 1; min-width: 12; }
+#retry-row { height: 3; margin: 1 0; }
+#retry-row Button { width: 100%; }
+#retry-explanation { margin-top: 1; color: #f6bc8a; }
+#file-tree, #transcript, #text-log, #command-results { height: 1fr; background: #101923; border: none; }
+#command-results .option-list--option { padding: 1; }
+#command-results .option-list--separator { color: #435966; }
+#activity { height: 1; }
+.command-preview { height: auto; margin: 1 0; border: round #304453; background: #10171f; padding: 0 1 1 1; }
+.command-title { height: 1; color: #9cabb9; margin-bottom: 1; }
+#review-command { color: #84d8c1; }
+ReviewScreen VerticalScroll { overflow-x: hidden; }
+#advanced-options { height: auto; margin: 1 0; }
+#advanced-toggle { width: 100%; text-align: left; }
+#advanced-fields { height: auto; margin-top: 1; padding: 0 1; border: solid #304453; }
+.advanced-row { height: auto; margin: 1 0; align-horizontal: left; }
+.advanced-row#advanced-config-row,
+.advanced-row#advanced-tuning-row { height: auto; }
+.advanced-row#advanced-tuning-row #advanced-tuning-fields { height: auto; }
+.advanced-row > Label { width: 28; margin-right: 1; content-align: left middle; }
+#advanced-read-format-row > Label,
+#advanced-erase-mode-row > Label,
+#advanced-size-policy-row > Label { height: 3; }
+.advanced-row Select { width: 1fr; }
+.advanced-tuning-item { height: 3; margin: 1 0; align-horizontal: left; }
+.advanced-tuning-item > Label { width: 28; height: 3; margin-right: 1; content-align: left middle; }
+.advanced-tuning-item Select, .advanced-tuning-item Input { width: 1fr; }
+#advanced-config-row > Label, #advanced-tuning-row > Label {
+    width: 1fr;
+    height: auto;
+    margin: 0 0 1 0;
+}
+#advanced-config-checks { height: auto; margin: 0 1; }
+#advanced-tuning-fields > .advanced-tuning-item:first-child { margin-top: 0; }
+#advanced-config-checks Checkbox { width: 1fr; height: 3; margin: 1 0; }
+#advanced-config-help { height: auto; margin-bottom: 1; }
+#advanced-fields > Checkbox { height: 3; margin: 1 0; }
+#advanced-actions { height: 3; margin: 1 0; }

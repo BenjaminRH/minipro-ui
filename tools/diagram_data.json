@@ -1,0 +1,8324 @@
+{
+  "schema_version": 1,
+  "diagrams": [
+    {
+      "id": "legacy-icp001",
+      "asset_group": "legacy",
+      "filename": "ICP001.jpg",
+      "kind": "wiring",
+      "title": "ATmel AVR SPI ISP",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP001.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [PB7]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PB6]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC is shown; no separate AVCC label appears.",
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "legacy-icp002",
+      "asset_group": "legacy",
+      "filename": "ICP002.jpg",
+      "kind": "wiring",
+      "title": "Microchip ICSP",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP002.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "PGC",
+          "target": "target PGC",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "PGD",
+          "target": "target PGD",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "VPP/MCLR",
+          "target": "target VPP/MCLR",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC and GND are shown."
+      ],
+      "notes": []
+    },
+    {
+      "id": "legacy-icp003",
+      "asset_group": "legacy",
+      "filename": "ICP003.jpg",
+      "kind": "wiring",
+      "title": "SyncMos SM39Rxx/SM59Rxx two-wire",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP003.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "Data",
+          "target": "target OCI_SDA",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "Clock",
+          "target": "target OCI_SCL",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        }
+      ],
+      "facts": [
+        "Target power is supplied by the programmer, with a 120 mA maximum; isolate the MCU from other board power loads when the target load is larger.",
+        "An external 12 MHz source is shown connected to target XTAL1."
+      ],
+      "notes": []
+    },
+    {
+      "id": "legacy-icp004",
+      "asset_group": "legacy",
+      "filename": "ICP004.jpg",
+      "kind": "wiring",
+      "title": "SyncMos SM59Dxx three-wire",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP004.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "Trig",
+          "target": "target P1.1",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "Data",
+          "target": "target P1.2",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "Clock",
+          "target": "target P1.0",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/EA",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RESET",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC and EA are shown tied together; XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "The target RESET network is drawn with 10 uF from VCC to RESET and 6.8 K from RESET to GND."
+      ]
+    },
+    {
+      "id": "legacy-icp005",
+      "asset_group": "legacy",
+      "filename": "ICP005.jpg",
+      "kind": "wiring",
+      "title": "AT45DBxxx SPI",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP005.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "CLK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target SO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target SI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC, /RESET, and /WP are shown tied together."
+      ],
+      "notes": [
+        "Wire length is shown as 5\u201310 cm.",
+        "ICSP1..6 map to ZIF socket pads 1, 2, 4, 3, 7, and 8 respectively; these are programmer socket-pad labels, not target package pins."
+      ]
+    },
+    {
+      "id": "legacy-icp006",
+      "asset_group": "legacy",
+      "filename": "ICP006.jpg",
+      "kind": "wiring",
+      "title": "ATmega 64/128 AVR SPI ISP",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP006.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [PB1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PE1]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PE0]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "legacy-icp007",
+      "asset_group": "legacy",
+      "filename": "ICP007.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR SPI download 2",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP007.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PB4]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PB3]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "legacy-icp008",
+      "asset_group": "legacy",
+      "filename": "ICP008.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR SPI download 3",
+      "programmers": [
+        "TL866A"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP008.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [PB1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PB3]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PB2]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "current-icp001",
+      "asset_group": "current",
+      "filename": "ICP001.jpg",
+      "kind": "wiring",
+      "title": "ATmel AVR SPI ISP",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP001.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [Pb7]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PB6]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC and AVCC are shown together; XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "current-icp002",
+      "asset_group": "current",
+      "filename": "ICP002.jpg",
+      "kind": "wiring",
+      "title": "Microchip ICSP",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP002.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "PGC",
+          "target": "target PGC",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "PGD",
+          "target": "target PGD",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target VSS/AVSS",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VDD",
+          "target": "target VDD/AVDD",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "VPP/MCLR",
+          "target": "target VPP/MCLR",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VDD and AVDD are shown together; target VSS and AVSS are shown together."
+      ],
+      "notes": [
+        "Leave the unlabeled PGC, PGD, and VPP/MCLR components unconnected."
+      ]
+    },
+    {
+      "id": "current-icp003",
+      "asset_group": "current",
+      "filename": "ICP003.jpg",
+      "kind": "wiring",
+      "title": "SyncMos SM59Rxx two-wire",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP003.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "Data",
+          "target": "target OCI_SDA",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "Clock",
+          "target": "target OCI_SCL",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        }
+      ],
+      "facts": [
+        "Target power is supplied by the programmer, with a 120 mA maximum; isolate the MCU from other board power loads when the target load is larger.",
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "The target RESET network is drawn with 10 uF from VCC to RESET and 6.8 K from RESET to GND."
+      ]
+    },
+    {
+      "id": "current-icp004",
+      "asset_group": "current",
+      "filename": "ICP004.jpg",
+      "kind": "wiring",
+      "title": "SyncMos SM59Dxx three-wire",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP004.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "Trig",
+          "target": "target P1.1",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "Data",
+          "target": "target P1.2",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "Clock",
+          "target": "target P1.0",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/EA",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RESET",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC and EA are shown tied together; XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "The target RESET network is drawn with 10 uF from VCC to RESET and 6.8 K from RESET to GND."
+      ]
+    },
+    {
+      "id": "current-icp005",
+      "asset_group": "current",
+      "filename": "ICP005.jpg",
+      "kind": "wiring",
+      "title": "25 SPI bus EEPROM",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP005.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "CLK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target SO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target SI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC, /RESET, /WP, and /HOLD are shown tied together."
+      ],
+      "notes": []
+    },
+    {
+      "id": "current-icp006",
+      "asset_group": "current",
+      "filename": "ICP006.jpg",
+      "kind": "wiring",
+      "title": "ATmega 64/128 AVR SPI ISP",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP006.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [PB1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PE1]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PE0]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "current-icp007",
+      "asset_group": "current",
+      "filename": "ICP007.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR SPI download 2",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP007.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PB4]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PB3]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "current-icp008",
+      "asset_group": "current",
+      "filename": "ICP008.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR SPI download 3",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP008.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK [PB1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target MISO [PB3]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI [PB2]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC/AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RESET",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": []
+    },
+    {
+      "id": "current-icp009",
+      "asset_group": "current",
+      "filename": "ICP009.jpg",
+      "kind": "wiring",
+      "title": "25 SPI NOR flash",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP009.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "CLK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target SO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "MOSI",
+          "target": "target SI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC, /RESET, /WP, and /HOLD are shown tied together."
+      ],
+      "notes": [
+        "A 30P capacitor may be connected from target MISO/SO to GND to improve ISP programming stability."
+      ]
+    },
+    {
+      "id": "current-icp010",
+      "asset_group": "current",
+      "filename": "ICP010.jpg",
+      "kind": "wiring",
+      "title": "Microwire 93xx EEPROM",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP010.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "CLK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "DO",
+          "target": "target DO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "DI",
+          "target": "target DI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "CS",
+          "target": "target CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target ORG is shown as a separate configuration pin: connect it to VCC for X16 organization or to ground for X8 organization."
+      ],
+      "notes": [
+        "A 30P label is present without a capacitor connection; no capacitor connection is specified."
+      ]
+    },
+    {
+      "id": "current-icp011",
+      "asset_group": "current",
+      "filename": "ICP011.jpg",
+      "kind": "wiring",
+      "title": "24xx I2C EEPROM",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP011.JPG"
+      ],
+      "connector": {
+        "pin_count": 6,
+        "orientation": "single row, pin 6 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCL",
+          "target": "target SCL",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "SDA",
+          "target": "target SDA",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "WP",
+          "target": "target WP",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        }
+      ],
+      "facts": [
+        "Target A0, A1, and A2 are shown tied to GND."
+      ],
+      "notes": []
+    },
+    {
+      "id": "current-icp012",
+      "asset_group": "current",
+      "filename": "ICP012.jpg",
+      "kind": "wiring",
+      "title": "SPI KB901x/9022 driver output",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP012.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The intermediate SPI Driver output header is numbered bottom-up: pin 6 CLK -> 60#(KSI5), pin 5 MISO <- 62#(KSI7), pin 4 MOSI -> 61#(KSI6), pin 3 GND -> target GND and 42#(KSO3), pin 2 is crossed out/NC, and pin 1 /CS -> 59#(KSI4).",
+        "Target VCC is supplied by External Power."
+      ],
+      "notes": [
+        "The intermediate SPI Driver has two six-pin sides; the output-header mapping is shown, while the upstream TL866II-to-driver mapping is unspecified."
+      ],
+      "schematic": {
+        "kind": "signals",
+        "source_label": "SPI buffer driver",
+        "target_label": "KB901x/9022",
+        "input_label": "Intermediate SPI Driver output",
+        "ports": [
+          {
+            "source": "Driver pin 6 CLK",
+            "target": "60# KSI5",
+            "optional": false
+          },
+          {
+            "source": "Driver pin 5 MISO",
+            "target": "62# KSI7",
+            "optional": false
+          },
+          {
+            "source": "Driver pin 4 MOSI",
+            "target": "61# KSI6",
+            "optional": false
+          },
+          {
+            "source": "Driver pin 3 GND",
+            "target": "target GND and 42# KSO3",
+            "optional": false
+          },
+          {
+            "source": "Driver pin 2 NC",
+            "target": "not connected",
+            "optional": false,
+            "connected": false
+          },
+          {
+            "source": "Driver pin 1 /CS",
+            "target": "59# KSI4",
+            "optional": false
+          }
+        ],
+        "optional_note": "Target VCC requires a separate external power supply; the upstream TL866II-to-driver wiring is unspecified.",
+        "external_power": "Target VCC"
+      }
+    },
+    {
+      "id": "t48-icp001",
+      "asset_group": "current",
+      "filename": "T48ICP001.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR SPI ISP",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP001.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PB6]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK[PB7]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RST",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Keep programming lines free of loads: leave a capacitor off MISO, a diode off MOSI, and resistors off SCK and RESET; other endpoints and values are unspecified."
+      ]
+    },
+    {
+      "id": "t48-icp002",
+      "asset_group": "current",
+      "filename": "T48ICP002.jpg",
+      "kind": "wiring",
+      "title": "Microchip ICSP",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP002.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VDD / AVDD",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target VSS / AVSS",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "PGD",
+          "target": "target PGD",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "PGC",
+          "target": "target PGC",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "VPP/MCLR",
+          "target": "target VPP/MCLR",
+          "direction": "output"
+        }
+      ],
+      "facts": [],
+      "notes": [
+        "Leave the unlabeled PGD, PGC, and VPP/MCLR components unconnected."
+      ]
+    },
+    {
+      "id": "t48-icp005",
+      "asset_group": "current",
+      "filename": "T48ICP005.jpg",
+      "kind": "wiring",
+      "title": "SPI bus EEPROM",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP005.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            15
+          ],
+          "signal": "MOSI",
+          "target": "target SI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            8,
+            6
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "SCK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target SO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target /RESET, /WP, and /HOLD are shown tied to VCC."
+      ],
+      "notes": [
+        "The three adjacent wires at programmer pins 8,7,6 (GND, SCK, GND) should not be separated.",
+        "Wire length is shown as less than 25 cm."
+      ]
+    },
+    {
+      "id": "t48-icp006",
+      "asset_group": "current",
+      "filename": "T48ICP006.jpg",
+      "kind": "wiring",
+      "title": "ATmega 64/128 AVR SPI ISP",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP006.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PE1]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PE0]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK[PB1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RST",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Keep programming lines free of loads: leave a capacitor off MISO, a diode off MOSI, and resistors off SCK and RESET; other endpoints and values are unspecified."
+      ]
+    },
+    {
+      "id": "t48-icp007",
+      "asset_group": "current",
+      "filename": "T48ICP007.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR SPI download 2",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP007.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PB4]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PB3]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK[PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RST",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Keep programming lines free of loads: leave a capacitor off MISO, a diode off MOSI, and resistors off SCK and RESET; other endpoints and values are unspecified."
+      ]
+    },
+    {
+      "id": "t48-icp008",
+      "asset_group": "current",
+      "filename": "T48ICP008.jpg",
+      "kind": "wiring",
+      "title": "Atmel MCU 008 AVR SPI ISP",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP008.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PB3]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PB2]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK[PB1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RST",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Keep programming lines free of loads: leave a capacitor off MISO, a diode off MOSI, and resistors off SCK and RESET; other endpoints and values are unspecified."
+      ]
+    },
+    {
+      "id": "t48-icp009",
+      "asset_group": "current",
+      "filename": "T48ICP009.jpg",
+      "kind": "wiring",
+      "title": "SPI bus EEPROM",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP009.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            15
+          ],
+          "signal": "MOSI",
+          "target": "target SI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            8,
+            6
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "SCK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target SO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target /RESET, /WP, and /HOLD are shown tied to VCC."
+      ],
+      "notes": [
+        "The three adjacent wires at programmer pins 8,7,6 (GND, SCK, GND) should not be separated.",
+        "Wire length is shown as less than 25 cm."
+      ]
+    },
+    {
+      "id": "t48-icp010",
+      "asset_group": "current",
+      "filename": "T48ICP010.jpg",
+      "kind": "wiring",
+      "title": "Microwire 93xx EEPROM",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP010.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            9
+          ],
+          "signal": "ORG",
+          "target": "target ORG",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "CLK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "DO",
+          "target": "target DO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "DI",
+          "target": "target DI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "CS",
+          "target": "target CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "The target is shown in SO-8, SO-14, or DIP8 packages."
+      ],
+      "notes": []
+    },
+    {
+      "id": "t48-icp011",
+      "asset_group": "current",
+      "filename": "T48ICP011.jpg",
+      "kind": "wiring",
+      "title": "24xx I2C EEPROM",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP011.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            16
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            13
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "WP",
+          "target": "target WP",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCL",
+          "target": "target SCL",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "SDA",
+          "target": "target SDA",
+          "direction": "bidirectional"
+        }
+      ],
+      "facts": [
+        "Target A0, A1, and A2 are shown tied to GND."
+      ],
+      "notes": []
+    },
+    {
+      "id": "t48-icp012",
+      "asset_group": "current",
+      "filename": "T48ICP012.jpg",
+      "kind": "wiring",
+      "title": "SPI KB901x/9022",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP012.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "orientation": "2x8 ISP header; top row 16,15 and bottom row 2,1",
+        "rows": [
+          {
+            "pins": [
+              16,
+              15
+            ]
+          },
+          {
+            "pins": [
+              14,
+              13
+            ]
+          },
+          {
+            "pins": [
+              12,
+              11
+            ]
+          },
+          {
+            "pins": [
+              10,
+              9
+            ]
+          },
+          {
+            "pins": [
+              8,
+              7
+            ]
+          },
+          {
+            "pins": [
+              6,
+              5
+            ]
+          },
+          {
+            "pins": [
+              4,
+              3
+            ]
+          },
+          {
+            "pins": [
+              2,
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            15
+          ],
+          "signal": "MOSI",
+          "target": "target 61#(KSI6)",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            16,
+            8,
+            6
+          ],
+          "signal": "GND",
+          "target": "target GND / 42#(KSO3)",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "SCK",
+          "target": "target 60#(KSI5)",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MISO",
+          "target": "target 62#(KSI7)",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "/CS",
+          "target": "target 59#(KSI4)",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC is supplied by External Power."
+      ],
+      "notes": [
+        "Programmer pin 13 is an unconnected red contact; it is neither ground nor power.",
+        "The three adjacent wires at programmer pins 8,7,6 (GND, 60#(KSI5), GND) should not be separated."
+      ]
+    },
+    {
+      "id": "t48-icp064",
+      "asset_group": "current",
+      "filename": "T48ICP064.jpg",
+      "kind": "wiring",
+      "title": "eMMC ISP driver outputs",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP064.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The EMMC ISP DRIVER output strip is VCC, VCCQ, GND, CLK, GND, CMD, D3 (4bits), D2 (4bits), D1 (4bits), D0."
+      ],
+      "notes": [
+        "The direct T48 ISP header-to-driver pin mapping is unspecified.",
+        "VCC and VCCQ are marked not to be connected when external target power is used.",
+        "The three adjacent wires around GND, CLK, GND should not be separated."
+      ],
+      "schematic": {
+        "kind": "signals",
+        "source_label": "T48 eMMC ISP driver",
+        "target_label": "eMMC",
+        "input_label": "T48 16-pin ISP",
+        "ports": [
+          {
+            "source": "VCC",
+            "target": "eMMC VCC (disconnect if externally powered)",
+            "optional": true,
+            "connected": true
+          },
+          {
+            "source": "VCCQ",
+            "target": "eMMC VCCQ (disconnect if externally powered)",
+            "optional": true,
+            "connected": true
+          },
+          {
+            "source": "GND",
+            "target": "eMMC GND",
+            "optional": false
+          },
+          {
+            "source": "CLK",
+            "target": "eMMC CLK",
+            "optional": false
+          },
+          {
+            "source": "GND",
+            "target": "eMMC GND",
+            "optional": false
+          },
+          {
+            "source": "CMD",
+            "target": "eMMC CMD",
+            "optional": false
+          },
+          {
+            "source": "D3",
+            "target": "eMMC D3 (4-bit mode)",
+            "optional": true
+          },
+          {
+            "source": "D2",
+            "target": "eMMC D2 (4-bit mode)",
+            "optional": true
+          },
+          {
+            "source": "D1",
+            "target": "eMMC D1 (4-bit mode)",
+            "optional": true
+          },
+          {
+            "source": "D0",
+            "target": "eMMC D0",
+            "optional": false
+          }
+        ],
+        "optional_note": "Leave VCC and VCCQ disconnected when using external target power. D1-D3 are required for 4-bit mode; keep the adjacent GND/CLK/GND group together."
+      }
+    },
+    {
+      "id": "t56-icp001",
+      "asset_group": "current",
+      "filename": "T56ICP001.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR ISP",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP001.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PB6]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK[Pb7]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RSTn",
+          "target": "target RSTn",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Pin 7 is not connected."
+      ]
+    },
+    {
+      "id": "t56-icp002",
+      "asset_group": "current",
+      "filename": "T56ICP002.jpg",
+      "kind": "wiring",
+      "title": "Microchip ICSP",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP002.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8,
+            7,
+            6
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "PGC",
+          "target": "target PGC",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "PGD",
+          "target": "target PGD",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target VSS/AVSS",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VDD",
+          "target": "target VDD / AVDD",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "VPP/MCLR",
+          "target": "target VPP/MCLR",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VDD and AVDD are shown together; target VSS and AVSS are shown together."
+      ],
+      "notes": [
+        "Leave the unlabeled PGC, PGD, and VPP/MCLR components unconnected."
+      ]
+    },
+    {
+      "id": "t56-icp005",
+      "asset_group": "current",
+      "filename": "T56ICP005.jpg",
+      "kind": "wiring",
+      "title": "SPI bus EEPROM",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP005.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            7,
+            3,
+            1
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "MISO",
+          "target": "target SO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target SI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "CLK",
+          "target": "target SCK",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target /RESET, /WP, and /HOLD are shown tied to VCC."
+      ],
+      "notes": [
+        "The three adjacent wires at programmer pins 3,2,1 (GND, CLK, GND) should not be separated.",
+        "Wire length is shown as less than 25 cm."
+      ]
+    },
+    {
+      "id": "t56-icp006",
+      "asset_group": "current",
+      "filename": "T56ICP006.jpg",
+      "kind": "wiring",
+      "title": "ATmega 64/128 AVR SPI ISP",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP006.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PE1]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PE0]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK [Pb1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RST",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Pin 7 is not connected."
+      ]
+    },
+    {
+      "id": "t56-icp007",
+      "asset_group": "current",
+      "filename": "T56ICP007.jpg",
+      "kind": "wiring",
+      "title": "ATmega AVR SPI download 2",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP007.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PB4]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PB3]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK[PB5]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RST",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Pin 7 is not connected."
+      ]
+    },
+    {
+      "id": "t56-icp008",
+      "asset_group": "current",
+      "filename": "T56ICP008.jpg",
+      "kind": "wiring",
+      "title": "Atmel MCU 008 AVR SPI ISP",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP008.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "VCC",
+          "target": "target VCC / AVCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "MISO",
+          "target": "target MISO[PB3]",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target MOSI[PB2]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "SCK",
+          "target": "target SCK[PB1]",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "RST",
+          "target": "target RST/nRST",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "XTAL1 and XTAL2 are shown with a crystal between them."
+      ],
+      "notes": [
+        "Pin 7 is not connected."
+      ]
+    },
+    {
+      "id": "t56-icp009",
+      "asset_group": "current",
+      "filename": "T56ICP009.jpg",
+      "kind": "wiring",
+      "title": "SPI bus EEPROM",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP009.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            7,
+            3,
+            1
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "MISO",
+          "target": "target SO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target SI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "CLK",
+          "target": "target SCK",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target /RESET, /WP, and /HOLD are shown tied to VCC."
+      ],
+      "notes": [
+        "The three adjacent wires at programmer pins 3,2,1 (GND, CLK, GND) should not be separated.",
+        "Wire length is shown as less than 25 cm."
+      ]
+    },
+    {
+      "id": "t56-icp010",
+      "asset_group": "current",
+      "filename": "T56ICP010.jpg",
+      "kind": "wiring",
+      "title": "Microwire 93xx EEPROM",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP010.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "ORG",
+          "target": "target ORG",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCK",
+          "target": "target SCK",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "DO",
+          "target": "target DO",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "DI",
+          "target": "target DI",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            1
+          ],
+          "signal": "CS",
+          "target": "target CS",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "The target is shown in SO-8, SO-14, or DIP8 packages."
+      ],
+      "notes": [
+        "ORG is a target configuration pin; its organization depends on how it is tied, but no tie is specified."
+      ]
+    },
+    {
+      "id": "t56-icp011",
+      "asset_group": "current",
+      "filename": "T56ICP011.jpg",
+      "kind": "wiring",
+      "title": "24xx I2C EEPROM",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP011.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8,
+            7,
+            1
+          ],
+          "signal": "NC",
+          "target": "not connected",
+          "direction": "nc"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "SCL",
+          "target": "target SCL",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "SDA",
+          "target": "target SDA",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "WP",
+          "target": "target WP",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        }
+      ],
+      "facts": [
+        "Target A0, A1, and A2 are shown tied to GND."
+      ],
+      "notes": []
+    },
+    {
+      "id": "t56-icp012",
+      "asset_group": "current",
+      "filename": "T56ICP012.jpg",
+      "kind": "wiring",
+      "title": "SPI KB901x/9022",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP012.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "NC",
+          "target": "not connected to target; External Power supplies target VCC",
+          "direction": "nc",
+          "optional": true
+        },
+        {
+          "pins": [
+            7,
+            3,
+            1
+          ],
+          "signal": "GND",
+          "target": "target GND / 42#(KSO3)",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "MISO",
+          "target": "target 62#(KSI7)",
+          "direction": "input"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "MOSI",
+          "target": "target 61#(KSI6)",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "/CS",
+          "target": "target 59#(KSI4)",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "CLK",
+          "target": "target 60#(KSI5)",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Target VCC is supplied by External Power."
+      ],
+      "notes": [
+        "The programmer VCC line is shown stopping before the target rail; do not connect it to the externally powered target VCC.",
+        "The three adjacent wires at programmer pins 3,2,1 (GND, 60#(KSI5), GND) should not be separated."
+      ]
+    },
+    {
+      "id": "t56-icp014",
+      "asset_group": "current",
+      "filename": "T56ICP014.jpg",
+      "kind": "wiring",
+      "title": "AT17LVxxx serial programming",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP014.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "VCC",
+          "target": "target VCC",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "/CS",
+          "target": "target /CS",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "RESET/OE",
+          "target": "target RESET/OE",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "/SER_EN",
+          "target": "target /SER_EN",
+          "direction": "output"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "DATA",
+          "target": "target DATA",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            3,
+            1
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "CLK",
+          "target": "target CLK",
+          "direction": "output"
+        }
+      ],
+      "facts": [],
+      "notes": [
+        "A ground connection appears at the pin 7 /CS route area; whether it is a separate pin-7 connection is unspecified. The explicit /CS mapping remains."
+      ]
+    },
+    {
+      "id": "t56-icp064",
+      "asset_group": "current",
+      "filename": "T56ICP064.jpg",
+      "kind": "wiring",
+      "title": "eMMC ISP 4-bit connection",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "ICP064.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "orientation": "single row, pin 8 at top and pin 1 at bottom",
+        "rows": [
+          {
+            "pins": [
+              8
+            ]
+          },
+          {
+            "pins": [
+              7
+            ]
+          },
+          {
+            "pins": [
+              6
+            ]
+          },
+          {
+            "pins": [
+              5
+            ]
+          },
+          {
+            "pins": [
+              4
+            ]
+          },
+          {
+            "pins": [
+              3
+            ]
+          },
+          {
+            "pins": [
+              2
+            ]
+          },
+          {
+            "pins": [
+              1
+            ]
+          }
+        ]
+      },
+      "connections": [
+        {
+          "pins": [
+            8
+          ],
+          "signal": "D3",
+          "target": "target D3 (4bits)",
+          "direction": "bidirectional",
+          "optional": true
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "D2",
+          "target": "target D2 (4bits)",
+          "direction": "bidirectional",
+          "optional": true
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "D1",
+          "target": "target D1 (4bits)",
+          "direction": "bidirectional",
+          "optional": true
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "D0",
+          "target": "target D0",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "CMD",
+          "target": "target CMD",
+          "direction": "bidirectional"
+        },
+        {
+          "pins": [
+            3,
+            1
+          ],
+          "signal": "GND",
+          "target": "target GND",
+          "direction": "ground"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "CLK",
+          "target": "target CLK",
+          "direction": "output"
+        }
+      ],
+      "facts": [
+        "Connect D3,D2,D1 when 4 Bits width is used."
+      ],
+      "notes": [
+        "Wire length is shown as less than 25 cm.",
+        "The socket-side labels show GND, VCCQ, VCCQ, GND on one side and VCC, VCC, GND on the other; the socket drawing marks Pin1.",
+        "VCCQ is available at 3.3 V and high impedance at 1.8 V. Use external power at 1.8 V; socket power is optional.",
+        "The three adjacent wires at programmer pins 3,2,1 (GND, CLK, GND) should not be separated."
+      ]
+    },
+    {
+      "id": "legacy-tl866a-adapter001",
+      "filename": "Adapter001.jpg",
+      "kind": "adapter",
+      "title": "TSOP48 adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter001.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The shared baseboard is marked TSOP48/SOP44.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The TSOP48 top assembly is shown; the related SOP44 version uses the same baseboard."
+      ],
+      "asset_group": "legacy",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP48",
+        "adapter_label": "Adapter001",
+        "programmer_label": "TL866",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 48
+      }
+    },
+    {
+      "id": "legacy-tl866a-adapter002",
+      "filename": "Adapter002.jpg",
+      "kind": "adapter",
+      "title": "SOP44 adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter002.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The shared baseboard is marked TSOP48/SOP44.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The SOP44 top assembly is shown; the related TSOP48 version uses the same baseboard."
+      ],
+      "asset_group": "legacy",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "SOP44",
+        "adapter_label": "Adapter002",
+        "programmer_label": "TL866",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 44
+      }
+    },
+    {
+      "id": "legacy-tl866a-adapter003",
+      "filename": "Adapter003.jpg",
+      "kind": "adapter",
+      "title": "TSOP40-A 8-bit adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter003.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "Supports the TSOP40-A 8-bit package variant.",
+        "Align pin 1 with the adapter's marked end.",
+        "Use this adapter with the TL866 programmer."
+      ],
+      "notes": [
+        "The complete electrical mapping and dimensions are unspecified."
+      ],
+      "asset_group": "legacy",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP40-A",
+        "adapter_label": "Adapter003",
+        "programmer_label": "TL866",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the TSOP40-A package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 40
+      }
+    },
+    {
+      "id": "legacy-tl866a-adapter004",
+      "filename": "Adapter004.jpg",
+      "kind": "adapter",
+      "title": "TSOP40-B 16-bit adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter004.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "Supports the TSOP40-B 16-bit package variant.",
+        "Align pin 1 with the adapter's marked end.",
+        "Use this adapter with the TL866 programmer."
+      ],
+      "notes": [
+        "The complete electrical mapping and dimensions are unspecified."
+      ],
+      "asset_group": "legacy",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP40-B",
+        "adapter_label": "Adapter004",
+        "programmer_label": "TL866",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the TSOP40-B package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 40
+      }
+    },
+    {
+      "id": "legacy-tl866a-adapter005",
+      "filename": "Adapter005.jpg",
+      "kind": "adapter",
+      "title": "TSOP32 adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter005.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "Supports TSOP32.",
+        "Align pin 1 with the adapter's marked end.",
+        "Use this adapter with the TL866 programmer."
+      ],
+      "notes": [
+        "The complete pin mapping and dimensions are unspecified."
+      ],
+      "asset_group": "legacy",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP32",
+        "adapter_label": "Adapter005",
+        "programmer_label": "TL866",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the TSOP32 package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 32
+      }
+    },
+    {
+      "id": "legacy-tl866a-adapter006",
+      "filename": "Adapter006.jpg",
+      "kind": "adapter",
+      "title": "SOP56 adapter for AM29BL802 and AM29BL162",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [
+        "AM29BL802",
+        "AM29BL162",
+        "SV29802"
+      ],
+      "metadata_refs": [
+        "Adapter006.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The adapter is marked SOP56.",
+        "The board is marked TSOP48/SOP44 and AM29BL802/AM29BL162.",
+        "Align pin 1 with the adapter's marked end.",
+        "Use this adapter with the TL866 programmer."
+      ],
+      "notes": [
+        "The adapter is marked SOP56 and TSOP48/SOP44; the relationship between these labels is unspecified."
+      ],
+      "asset_group": "legacy",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "SOP56",
+        "adapter_label": "Adapter006",
+        "programmer_label": "TL866",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the supported package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 56
+      }
+    },
+    {
+      "id": "legacy-tl866a-adapter007",
+      "filename": "Adapter007.jpg",
+      "kind": "adapter",
+      "title": "ATmega TQFP64 to 40-pin parallel adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [
+        "ATmegaxxx"
+      ],
+      "metadata_refs": [
+        "Adapter007.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "Adapter pin 1 upper-left; TQFP64 orientation mark upper-left."
+      },
+      "connections": [
+        {
+          "pins": [
+            39
+          ],
+          "signal": "PA0",
+          "target": "TQFP64 pin 51"
+        },
+        {
+          "pins": [
+            9
+          ],
+          "signal": "RESET",
+          "target": "TQFP64 pin 20"
+        },
+        {
+          "pins": [
+            19
+          ],
+          "signal": "XTAL1",
+          "target": "TQFP64 pin 24"
+        },
+        {
+          "pins": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "signal": "PB0..PB7",
+          "target": "TQFP64 PB0..PB7"
+        },
+        {
+          "pins": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "signal": "PD1..PD7",
+          "target": "TQFP64 PD1..PD7"
+        },
+        {
+          "pins": [
+            40
+          ],
+          "signal": "VCC",
+          "target": "TQFP64 pins 64, 52, and 21"
+        },
+        {
+          "pins": [
+            20
+          ],
+          "signal": "GND",
+          "target": "TQFP64 pins 63, 53, and 22"
+        }
+      ],
+      "facts": [
+        "Parallel-programming mapping for ATMEGAxxx TQFP64.",
+        "Other device pins are stated to be unused and left floating."
+      ],
+      "notes": [
+        "The exact ATmega variant is unspecified."
+      ],
+      "asset_group": "legacy"
+    },
+    {
+      "id": "legacy-tl866a-adapter008",
+      "filename": "Adapter008.jpg",
+      "kind": "adapter",
+      "title": "SN006 25-series 1.8 V 8-pin flash adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter008.JPG"
+      ],
+      "connector": {
+        "pin_count": 8,
+        "rows": [
+          {
+            "pins": [
+              1,
+              8
+            ]
+          },
+          {
+            "pins": [
+              2,
+              7
+            ]
+          },
+          {
+            "pins": [
+              3,
+              6
+            ]
+          },
+          {
+            "pins": [
+              4,
+              5
+            ]
+          }
+        ],
+        "orientation": "Flash pin 1 upper-left; adapter pin 1 upper-left."
+      },
+      "connections": [
+        {
+          "pins": [
+            1
+          ],
+          "signal": "flash pin 1",
+          "target": "adapter pin 1#"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "flash pin 2",
+          "target": "adapter pin 2#"
+        },
+        {
+          "pins": [
+            4
+          ],
+          "signal": "GND",
+          "target": "adapter pin 4#"
+        },
+        {
+          "pins": [
+            5
+          ],
+          "signal": "flash pin 5",
+          "target": "adapter pin 37#"
+        },
+        {
+          "pins": [
+            6
+          ],
+          "signal": "flash pin 6",
+          "target": "adapter pin 38#"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "flash pin 7",
+          "target": "adapter pin 39#"
+        },
+        {
+          "pins": [
+            8
+          ],
+          "signal": "1.8 V rail",
+          "target": "LM1117 1.8 V output"
+        },
+        {
+          "pins": [
+            3
+          ],
+          "signal": "flash pin 3",
+          "target": "1 K branch from 1.8 V rail"
+        }
+      ],
+      "facts": [
+        "LM1117 regulator marked 1.8 V; input is adapter pin 40#.",
+        "Two 0.1u capacitors are shown from regulator input/output rails to ground.",
+        "A 1K resistor is shown from the 1.8 V rail to flash pin 3.",
+        "Four BAT54C diodes clamp flash pins 1, 5, 6, and 7: their anodes are at those flash pins and their cathodes are at the 1.8 V rail."
+      ],
+      "notes": [
+        "This is a 25-series 1.8 V flash PIN8 mapping."
+      ],
+      "asset_group": "legacy",
+      "connection_heading": "Flash pin mapping"
+    },
+    {
+      "id": "legacy-tl866a-adapter009",
+      "filename": "Adapter009.jpg",
+      "kind": "adapter",
+      "title": "SN007 25-series 1.8 V 16-pin flash adapter",
+      "programmers": [
+        "TL866A",
+        "TL866CS"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter009.JPG"
+      ],
+      "connector": {
+        "pin_count": 16,
+        "rows": [
+          {
+            "pins": [
+              1,
+              16
+            ]
+          },
+          {
+            "pins": [
+              2,
+              15
+            ]
+          },
+          {
+            "pins": [
+              3,
+              14
+            ]
+          },
+          {
+            "pins": [
+              4,
+              13
+            ]
+          },
+          {
+            "pins": [
+              5,
+              12
+            ]
+          },
+          {
+            "pins": [
+              6,
+              11
+            ]
+          },
+          {
+            "pins": [
+              7,
+              10
+            ]
+          },
+          {
+            "pins": [
+              8,
+              9
+            ]
+          }
+        ],
+        "orientation": "Flash pin 1 upper-left; adapter pin 1 upper-left."
+      },
+      "connections": [
+        {
+          "pins": [
+            1
+          ],
+          "signal": "flash pin 1",
+          "target": "adapter pin 1#"
+        },
+        {
+          "pins": [
+            7
+          ],
+          "signal": "flash pin 7",
+          "target": "adapter pin 7#"
+        },
+        {
+          "pins": [
+            8
+          ],
+          "signal": "flash pin 8",
+          "target": "adapter pin 8#"
+        },
+        {
+          "pins": [
+            10
+          ],
+          "signal": "flash pin 10",
+          "target": "adapter pin 34# / GND"
+        },
+        {
+          "pins": [
+            15
+          ],
+          "signal": "flash pin 15",
+          "target": "adapter pin 39#"
+        },
+        {
+          "pins": [
+            16
+          ],
+          "signal": "flash pin 16",
+          "target": "adapter pin 40#"
+        },
+        {
+          "pins": [
+            2
+          ],
+          "signal": "flash pin 2",
+          "target": "LM1117 1.8 V output",
+          "direction": "power"
+        },
+        {
+          "pins": [
+            9
+          ],
+          "signal": "flash pin 9",
+          "target": "1 K resistor to 1.8 V rail"
+        }
+      ],
+      "facts": [
+        "LM1117 regulator marked 1.8 V; input is adapter pin 2#.",
+        "Two 0.1u capacitors are shown from regulator input/output rails to ground.",
+        "A 1K resistor is shown from the 1.8 V rail to flash pin 9.",
+        "Four BAT54C diode symbols clamp flash pins 1, 7, 15, and 16: their anodes are at those flash pins and their cathodes are at the 1.8 V rail.",
+        "All other flash pins are left unconnected."
+      ],
+      "notes": [
+        "This is a 25-series 1.8 V flash PIN16 mapping."
+      ],
+      "asset_group": "legacy",
+      "connection_heading": "Flash pin mapping"
+    },
+    {
+      "id": "current-tl866ii-adapter001",
+      "filename": "Adapter001.jpg",
+      "kind": "adapter",
+      "title": "TSOP48 adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter001.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The shared baseboard is marked TSOP48/SOP44.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The TSOP48 top assembly is shown; the related SOP44 version uses the same baseboard."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP48",
+        "adapter_label": "Adapter001",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 48
+      }
+    },
+    {
+      "id": "current-tl866ii-adapter002",
+      "filename": "Adapter002.jpg",
+      "kind": "adapter",
+      "title": "SOP44 adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter002.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The shared baseboard is marked TSOP48/SOP44.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The SOP44 top assembly is shown; the related TSOP48 version uses the same baseboard."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "SOP44",
+        "adapter_label": "Adapter002",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 44
+      }
+    },
+    {
+      "id": "current-tl866ii-adapter003",
+      "filename": "Adapter003.jpg",
+      "kind": "adapter",
+      "title": "TSOP40-A 8-bit adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter003.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "Supports the TSOP40-A 8-bit package variant.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The complete pin mapping and dimensions are unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP40-A",
+        "adapter_label": "Adapter003",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the TSOP40-A package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 40
+      }
+    },
+    {
+      "id": "current-tl866ii-adapter004",
+      "filename": "Adapter004.jpg",
+      "kind": "adapter",
+      "title": "TSOP40-B 16-bit adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter004.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "Supports the TSOP40-B 16-bit package variant.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The complete pin mapping and dimensions are unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP40-B",
+        "adapter_label": "Adapter004",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the TSOP40-B package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 40
+      }
+    },
+    {
+      "id": "current-tl866ii-adapter005",
+      "filename": "Adapter005.jpg",
+      "kind": "adapter",
+      "title": "TSOP32 adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter005.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "Supports TSOP32.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The complete pin mapping and dimensions are unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP32",
+        "adapter_label": "Adapter005",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the TSOP32 package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 32
+      }
+    },
+    {
+      "id": "current-tl866ii-adapter006",
+      "filename": "Adapter006.jpg",
+      "kind": "adapter",
+      "title": "SOP56 adapter for AM29BL802 and AM29BL162",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [
+        "AM29BL802",
+        "AM29BL162",
+        "SV29802"
+      ],
+      "metadata_refs": [
+        "Adapter006.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The adapter is marked SOP56 and AM29BL802/AM29BL162.",
+        "The board is marked TSOP48/SOP44.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The relationship between the SOP56 and TSOP48/SOP44 labels is unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "SOP56",
+        "adapter_label": "Adapter006",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the supported package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 56
+      }
+    },
+    {
+      "id": "current-tl866ii-adapter007",
+      "filename": "Adapter007.jpg",
+      "kind": "adapter",
+      "title": "ATmega TQFP64 to 40-pin parallel adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [
+        "ATmegaxxx"
+      ],
+      "metadata_refs": [
+        "Adapter007.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "Adapter pin 1 upper-left; TQFP64 orientation mark upper-left."
+      },
+      "connections": [
+        {
+          "pins": [
+            39
+          ],
+          "signal": "PA0",
+          "target": "TQFP64 pin 51"
+        },
+        {
+          "pins": [
+            9
+          ],
+          "signal": "RESET",
+          "target": "TQFP64 pin 20"
+        },
+        {
+          "pins": [
+            19
+          ],
+          "signal": "XTAL1",
+          "target": "TQFP64 pin 24"
+        },
+        {
+          "pins": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "signal": "PB0..PB7",
+          "target": "TQFP64 PB0..PB7"
+        },
+        {
+          "pins": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "signal": "PD1..PD7",
+          "target": "TQFP64 PD1..PD7"
+        },
+        {
+          "pins": [
+            40
+          ],
+          "signal": "VCC",
+          "target": "TQFP64 pins 64, 52, and 21"
+        },
+        {
+          "pins": [
+            20
+          ],
+          "signal": "GND",
+          "target": "TQFP64 pins 63, 53, and 22"
+        }
+      ],
+      "facts": [
+        "Parallel-programming mapping for ATMEGAxxx TQFP64.",
+        "Other device pins are stated to be unused and left floating."
+      ],
+      "notes": [
+        "The exact ATmega variant is unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-tl866ii-adapter008",
+      "filename": "Adapter008.jpg",
+      "kind": "adapter",
+      "title": "NAND TSOP48 adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter008.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The board is marked NAND08 and TSOP48.",
+        "Align pin 1 with the adapter's marked end.",
+        "R01 is shown as 3.9 kOhm originally and 470 Ohm as the replacement value.",
+        "C01 is shown as 0.1uF originally and 2.2uF as the replacement value.",
+        "One additional wire jumper is shown, but its endpoints are not identified."
+      ],
+      "notes": [
+        "One additional wire jumper is shown, but its endpoints are not identified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "NAND TSOP48",
+        "adapter_label": "Adapter008",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the NAND TSOP48 package in the central socket with pin 1 aligned to the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 48
+      }
+    },
+    {
+      "id": "current-tl866ii-adapter010",
+      "filename": "Adapter010.jpg",
+      "kind": "adapter",
+      "title": "SV-KB901x adapter",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [
+        "KB901x"
+      ],
+      "metadata_refs": [
+        "Adapter010.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The interface labels are /CS, MISO, GND, VCC, CLK, and MOSI.",
+        "The six labeled SPI signals use an eight-contact interface; two positions are unlabeled.",
+        "The full KB901x package-to-interface contact mapping is unspecified."
+      ],
+      "notes": [
+        "The full package-to-interface pin mapping is unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "KB901x LQFP128",
+        "adapter_label": "SV-KB901x adapter",
+        "programmer_label": "TL866II",
+        "pin1_label": "Pin 1 orientation marker",
+        "placement_note": "Place the LQFP package in the central footprint; the six SPI contacts are at the upper end.",
+        "interface_label": "SPI: /CS, MISO, GND, VCC, CLK, MOSI",
+        "package_shape": "quad",
+        "package_pins": 128,
+        "interface_labels_left": [
+          "/CS",
+          "MISO",
+          "unlabeled",
+          "GND"
+        ],
+        "interface_labels_right": [
+          "VCC",
+          "unlabeled",
+          "CLK",
+          "MOSI"
+        ],
+        "interface_position": "top",
+        "interface_pin_count": 8
+      }
+    },
+    {
+      "id": "current-t56-adapterite",
+      "filename": "AdapterITE.jpg",
+      "kind": "adapter",
+      "title": "ITE8xxx TQFP128 adapter",
+      "programmers": [
+        "T56"
+      ],
+      "models": [
+        "ITE8xxx"
+      ],
+      "metadata_refs": [
+        "Adapter012.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The board marking appears to read ITE8xxx and TQFP128.",
+        "The board prints PIN1 at the device pin-1 end.",
+        "The adapter is shown in a ZIF socket."
+      ],
+      "notes": [
+        "The exact ITE part and electrical mapping are unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "ITE8xxx TQFP128",
+        "adapter_label": "AdapterITE",
+        "programmer_label": "T56",
+        "pin1_label": "PIN1",
+        "placement_note": "Place the TQFP128 package in the ZIF adapter with PIN1 at the marked end.",
+        "interface_label": "",
+        "package_shape": "quad",
+        "package_pins": 128
+      }
+    },
+    {
+      "id": "current-t86-t32a",
+      "filename": "T86T32A.jpg",
+      "kind": "adapter",
+      "title": "TSOP32 to DIP32 adapter with pin 9 to ZIF1",
+      "programmers": [
+        "TL866II"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter013.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "TSOP32 pin-9 orientation dot; ZIF1 is explicitly labeled."
+      },
+      "connections": [
+        {
+          "pins": [
+            1
+          ],
+          "signal": "TSOP32 pin 9",
+          "target": "ZIF1"
+        }
+      ],
+      "facts": [
+        "Use a TSOP32-to-DIP32 adapter.",
+        "Connect TSOP32 pin 9 to ZIF1.",
+        "The socket contacts are labeled ZIF1 through ZIF40."
+      ],
+      "notes": [
+        "Additional programmer-specific mapping is unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t48-t48",
+      "filename": "T48T48.jpg",
+      "kind": "adapter",
+      "title": "TSOP40 and TSOP48 NOR flash adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter001.JPG",
+        "Adapter003.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "Use this adapter for TSOP40/TSOP48 NOR flash.",
+        "Align pin 1 with the adapter's marked end.",
+        "The board is marked Connect ISP."
+      ],
+      "notes": [
+        "The complete one-to-one signal mapping is unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP40/48 NOR (48-pin outline)",
+        "adapter_label": "T48T48 adapter",
+        "programmer_label": "T48",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the TSOP40/TSOP48 package in the adapter socket with pin 1 at the marked end.",
+        "interface_label": "16-pin ISP",
+        "package_shape": "dual",
+        "package_pins": 48
+      }
+    },
+    {
+      "id": "current-t48-sop44",
+      "filename": "T48SOP44.jpg",
+      "kind": "adapter",
+      "title": "T48 SOP44 adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter002.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "This is a SOP44 adapter.",
+        "Align pin 1 with the adapter's marked end."
+      ],
+      "notes": [
+        "The complete wiring schematic and adapter model are unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "SOP44",
+        "adapter_label": "T48 SOP44 adapter",
+        "programmer_label": "T48",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the SOP44 package in the adapter socket with pin 1 at the marked end.",
+        "interface_label": "16-pin ISP",
+        "package_shape": "dual",
+        "package_pins": 44
+      }
+    },
+    {
+      "id": "current-t48-t40b",
+      "filename": "T48T40B.jpg",
+      "kind": "adapter",
+      "title": "TSOP40 to DIP40 adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter004.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "TSOP40 pin-1 marker and adapter pin-1 end are shown."
+      },
+      "connections": [
+        {
+          "pins": [
+            11
+          ],
+          "signal": "TSOP40 pin 11",
+          "target": "ISP1"
+        },
+        {
+          "pins": [
+            21,
+            40
+          ],
+          "signal": "short",
+          "target": "each other"
+        }
+      ],
+      "facts": [
+        "Use this TSOP40-to-DIP40 adapter.",
+        "Package size is stated as TSOP40 10x14mm.",
+        "TSOP40 package pin 11 is connected to ISP1.",
+        "Connect socket pins 21 and 40 together."
+      ],
+      "notes": [
+        "The model label is SN-ADP-F40-0.5-14mm."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t48-t32",
+      "filename": "T48T32.jpg",
+      "kind": "adapter",
+      "title": "TSOP32 to DIP32 adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter005.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "TSOP32 pin-1 mark and adapter pin-1 end are shown."
+      },
+      "connections": [
+        {
+          "pins": [
+            1
+          ],
+          "signal": "TSOP32 pins 1..16",
+          "target": "socket contacts 1..16, one-by-one"
+        },
+        {
+          "pins": [
+            25
+          ],
+          "signal": "TSOP32 pins 17..32",
+          "target": "socket contacts 25..40, one-by-one"
+        }
+      ],
+      "facts": [
+        "Use this TSOP32-to-DIP32 adapter with its 40-contact socket.",
+        "The TSOP32 pins 1..16 connect one by one to socket contacts 1..16.",
+        "The TSOP32 pins 17..32 connect one by one to socket contacts 25..40.",
+        "Connect the corresponding pins one by one; socket contacts 17..24 are unused."
+      ],
+      "notes": [
+        "The dense traces are represented as two explicit one-to-one ranges; remaining physical layout details are unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t48-tqfp64",
+      "filename": "T48TQFP64_ATMEGA.jpg",
+      "kind": "adapter",
+      "title": "ATmega TQFP64 to DIP40 parallel adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [
+        "ATmegaxxx"
+      ],
+      "metadata_refs": [
+        "Adapter007.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "Adapter pin 1 upper-left; TQFP64 orientation mark upper-left."
+      },
+      "connections": [
+        {
+          "pins": [
+            39
+          ],
+          "signal": "PA0",
+          "target": "TQFP64 pin 51"
+        },
+        {
+          "pins": [
+            9
+          ],
+          "signal": "RESET",
+          "target": "TQFP64 pin 20"
+        },
+        {
+          "pins": [
+            19
+          ],
+          "signal": "XTAL1",
+          "target": "TQFP64 pin 24"
+        },
+        {
+          "pins": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "signal": "PB0..PB7",
+          "target": "TQFP64 PB0..PB7"
+        },
+        {
+          "pins": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "signal": "PD1..PD7",
+          "target": "TQFP64 PD1..PD7"
+        },
+        {
+          "pins": [
+            40
+          ],
+          "signal": "VCC",
+          "target": "TQFP64 pins 64, 52, and 21"
+        },
+        {
+          "pins": [
+            20
+          ],
+          "signal": "GND",
+          "target": "TQFP64 pins 63, 53, and 22"
+        }
+      ],
+      "facts": [
+        "Use the QFP64-to-DIP40 parallel-programming mapping for ATmega TQFP64 devices.",
+        "Other device pins are stated to be unused and left floating."
+      ],
+      "notes": [
+        "The exact ATmega variant is unspecified; check the printed VCC/GND groups against its datasheet."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t48-t48n",
+      "filename": "T48T48N.jpg",
+      "kind": "adapter",
+      "title": "T48 NAND TSOP48-2 adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter008.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The board text reads ADP_F48_EX-2 and T48 Programmer For NAND TSOP48-2.",
+        "The package is TSOP48-2 NAND.",
+        "Pin 1 is indicated by an arrow and circular mark."
+      ],
+      "notes": [
+        "The full signal mapping is unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "NAND TSOP48-2",
+        "adapter_label": "T48T48N adapter",
+        "programmer_label": "T48",
+        "pin1_label": "Pin 1",
+        "placement_note": "Place the NAND TSOP48-2 package in the adapter socket with pin 1 at the marked end.",
+        "interface_label": "",
+        "package_shape": "dual",
+        "package_pins": 48
+      }
+    },
+    {
+      "id": "current-t48-kb9012",
+      "filename": "T48KB9012ADP.jpg",
+      "kind": "adapter",
+      "title": "T48 SV-KB901x adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [
+        "KB901x"
+      ],
+      "metadata_refs": [
+        "Adapter010.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The interface labels are /CS, MISO, GND, VCC, CLK, and MOSI.",
+        "The six labeled SPI contacts (/CS, MISO, GND, VCC, CLK, MOSI) are at the top of the long adapter/ZIF body.",
+        "The six labeled SPI signals use an eight-contact interface; two positions are unlabeled.",
+        "The adapter body is marked PIN1."
+      ],
+      "notes": [
+        "The full package-to-interface pin mapping is unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "KB901x LQFP128",
+        "adapter_label": "T48 SV-KB901x adapter",
+        "programmer_label": "T48",
+        "pin1_label": "PIN1",
+        "placement_note": "Place the LQFP package in the central footprint; the six SPI contacts are at the top of the adapter body.",
+        "interface_label": "SPI: /CS, MISO, GND, VCC, CLK, MOSI",
+        "package_shape": "quad",
+        "package_pins": 128,
+        "interface_labels_left": [
+          "/CS",
+          "MISO",
+          "unlabeled",
+          "GND"
+        ],
+        "interface_labels_right": [
+          "VCC",
+          "unlabeled",
+          "CLK",
+          "MOSI"
+        ],
+        "interface_position": "top",
+        "interface_pin_count": 8
+      }
+    },
+    {
+      "id": "current-t48-t56",
+      "filename": "T48T56.jpg",
+      "kind": "adapter",
+      "title": "T48 TSOP56 adapter",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter011.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The adapter is marked TSOP56.",
+        "The device/socket pin-1 end is marked."
+      ],
+      "notes": [
+        "The complete mapping and adapter model are unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "TSOP56",
+        "adapter_label": "T48 TSOP56 adapter",
+        "programmer_label": "T48",
+        "pin1_label": "PIN1",
+        "placement_note": "Place the TSOP56 package in the adapter socket with PIN1 at the marked end.",
+        "interface_label": "16-pin ISP",
+        "package_shape": "dual",
+        "package_pins": 56
+      }
+    },
+    {
+      "id": "current-t48-t32a",
+      "filename": "T48T32A.jpg",
+      "kind": "adapter",
+      "title": "TSOP32 to DIP32 adapter with pin 9 to ZIF1",
+      "programmers": [
+        "T48"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter013.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "TSOP32 pin-9 orientation dot; ZIF1 is explicitly labeled."
+      },
+      "connections": [
+        {
+          "pins": [
+            1
+          ],
+          "signal": "TSOP32 pin 9",
+          "target": "ZIF1"
+        }
+      ],
+      "facts": [
+        "Use a TSOP32-to-DIP32 adapter.",
+        "Connect TSOP32 pin 9 to ZIF1.",
+        "The socket contacts are labeled ZIF1 through ZIF40."
+      ],
+      "notes": [
+        "The remaining dense trace endpoints are unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t56-t48",
+      "filename": "T56T48.jpg",
+      "kind": "adapter",
+      "title": "Universal TSOP28-to-TSOP48 adapter",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter001.JPG",
+        "Adapter003.JPG",
+        "Adapter004.JPG",
+        "Adapter005.JPG",
+        "Adapter008.JPG"
+      ],
+      "connector": {
+        "pin_count": 48,
+        "rows": [
+          {
+            "pins": [
+              1,
+              48
+            ]
+          },
+          {
+            "pins": [
+              2,
+              47
+            ]
+          },
+          {
+            "pins": [
+              3,
+              46
+            ]
+          },
+          {
+            "pins": [
+              4,
+              45
+            ]
+          },
+          {
+            "pins": [
+              5,
+              44
+            ]
+          },
+          {
+            "pins": [
+              6,
+              43
+            ]
+          },
+          {
+            "pins": [
+              7,
+              42
+            ]
+          },
+          {
+            "pins": [
+              8,
+              41
+            ]
+          },
+          {
+            "pins": [
+              9,
+              40
+            ]
+          },
+          {
+            "pins": [
+              10,
+              39
+            ]
+          },
+          {
+            "pins": [
+              11,
+              38
+            ]
+          },
+          {
+            "pins": [
+              12,
+              37
+            ]
+          },
+          {
+            "pins": [
+              13,
+              36
+            ]
+          },
+          {
+            "pins": [
+              14,
+              35
+            ]
+          },
+          {
+            "pins": [
+              15,
+              34
+            ]
+          },
+          {
+            "pins": [
+              16,
+              33
+            ]
+          },
+          {
+            "pins": [
+              17,
+              32
+            ]
+          },
+          {
+            "pins": [
+              18,
+              31
+            ]
+          },
+          {
+            "pins": [
+              19,
+              30
+            ]
+          },
+          {
+            "pins": [
+              20,
+              29
+            ]
+          },
+          {
+            "pins": [
+              21,
+              28
+            ]
+          },
+          {
+            "pins": [
+              22,
+              27
+            ]
+          },
+          {
+            "pins": [
+              23,
+              26
+            ]
+          },
+          {
+            "pins": [
+              24,
+              25
+            ]
+          }
+        ],
+        "orientation": "Package pin-1 marks and socket PIN1 are shown."
+      },
+      "connections": [],
+      "facts": [
+        "For TSOP28, TSOP32, TSOP40, and TSOP48 packages.",
+        "Connect TSOP32, TSOP40, and TSOP48 packages one by one.",
+        "The outer contacts are numbered 1..24 and 48..25."
+      ],
+      "notes": [
+        "Model SN-ADP-048-0.5; individual trace endpoints are unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t56-sop44",
+      "filename": "T56SOP44.jpg",
+      "kind": "adapter",
+      "title": "SOP44 to DIP44 adapter",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter002.JPG"
+      ],
+      "connector": {
+        "pin_count": 48,
+        "rows": [
+          {
+            "pins": [
+              1,
+              48
+            ]
+          },
+          {
+            "pins": [
+              2,
+              47
+            ]
+          },
+          {
+            "pins": [
+              3,
+              46
+            ]
+          },
+          {
+            "pins": [
+              4,
+              45
+            ]
+          },
+          {
+            "pins": [
+              5,
+              44
+            ]
+          },
+          {
+            "pins": [
+              6,
+              43
+            ]
+          },
+          {
+            "pins": [
+              7,
+              42
+            ]
+          },
+          {
+            "pins": [
+              8,
+              41
+            ]
+          },
+          {
+            "pins": [
+              9,
+              40
+            ]
+          },
+          {
+            "pins": [
+              10,
+              39
+            ]
+          },
+          {
+            "pins": [
+              11,
+              38
+            ]
+          },
+          {
+            "pins": [
+              12,
+              37
+            ]
+          },
+          {
+            "pins": [
+              13,
+              36
+            ]
+          },
+          {
+            "pins": [
+              14,
+              35
+            ]
+          },
+          {
+            "pins": [
+              15,
+              34
+            ]
+          },
+          {
+            "pins": [
+              16,
+              33
+            ]
+          },
+          {
+            "pins": [
+              17,
+              32
+            ]
+          },
+          {
+            "pins": [
+              18,
+              31
+            ]
+          },
+          {
+            "pins": [
+              19,
+              30
+            ]
+          },
+          {
+            "pins": [
+              20,
+              29
+            ]
+          },
+          {
+            "pins": [
+              21,
+              28
+            ]
+          },
+          {
+            "pins": [
+              22,
+              27
+            ]
+          },
+          {
+            "pins": [
+              23,
+              26
+            ]
+          },
+          {
+            "pins": [
+              24,
+              25
+            ]
+          }
+        ],
+        "orientation": "Outer socket contacts 1..24 left and 48..25 right; SOP44 uses the lower 22 contacts on each side."
+      },
+      "connections": [],
+      "facts": [
+        "Use this SOP44-to-DIP44 adapter.",
+        "The SOP44 connects one by one to the lower 44 contacts of the 48-contact outer socket.",
+        "Outer socket contacts are labeled 1..24 on the left and 48..25 on the right; pin 1 is marked."
+      ],
+      "notes": [
+        "Individual trace endpoints are unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t56-p56",
+      "filename": "T56P56.jpg",
+      "kind": "adapter",
+      "title": "AM29BL802/162 SSO56 adapter",
+      "programmers": [
+        "T56"
+      ],
+      "models": [
+        "AM29BL802",
+        "AM29BL162"
+      ],
+      "metadata_refs": [
+        "Adapter006.JPG"
+      ],
+      "connector": {
+        "pin_count": 48,
+        "rows": [
+          {
+            "pins": [
+              1,
+              48
+            ]
+          },
+          {
+            "pins": [
+              2,
+              47
+            ]
+          },
+          {
+            "pins": [
+              3,
+              46
+            ]
+          },
+          {
+            "pins": [
+              4,
+              45
+            ]
+          },
+          {
+            "pins": [
+              5,
+              44
+            ]
+          },
+          {
+            "pins": [
+              6,
+              43
+            ]
+          },
+          {
+            "pins": [
+              7,
+              42
+            ]
+          },
+          {
+            "pins": [
+              8,
+              41
+            ]
+          },
+          {
+            "pins": [
+              9,
+              40
+            ]
+          },
+          {
+            "pins": [
+              10,
+              39
+            ]
+          },
+          {
+            "pins": [
+              11,
+              38
+            ]
+          },
+          {
+            "pins": [
+              12,
+              37
+            ]
+          },
+          {
+            "pins": [
+              13,
+              36
+            ]
+          },
+          {
+            "pins": [
+              14,
+              35
+            ]
+          },
+          {
+            "pins": [
+              15,
+              34
+            ]
+          },
+          {
+            "pins": [
+              16,
+              33
+            ]
+          },
+          {
+            "pins": [
+              17,
+              32
+            ]
+          },
+          {
+            "pins": [
+              18,
+              31
+            ]
+          },
+          {
+            "pins": [
+              19,
+              30
+            ]
+          },
+          {
+            "pins": [
+              20,
+              29
+            ]
+          },
+          {
+            "pins": [
+              21,
+              28
+            ]
+          },
+          {
+            "pins": [
+              22,
+              27
+            ]
+          },
+          {
+            "pins": [
+              23,
+              26
+            ]
+          },
+          {
+            "pins": [
+              24,
+              25
+            ]
+          }
+        ],
+        "orientation": "Package PIN1 and PIN56 marks are shown; socket PIN1 is at upper-left."
+      },
+      "connections": [],
+      "facts": [
+        "The target label reads AM29BL802/162 and SSO56.",
+        "Connect each corresponding pin one by one.",
+        "An ISP header is numbered 1..8.",
+        "The outer contacts are numbered 1..24 and 48..25."
+      ],
+      "notes": [
+        "Model ADP-SSO056-0.8; individual trace endpoints are unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t56-tqfp64",
+      "filename": "T56TQFP64_ATMEGA.jpg",
+      "kind": "adapter",
+      "title": "ATmega TQFP64 to DIP40 parallel adapter",
+      "programmers": [
+        "T56"
+      ],
+      "models": [
+        "ATmegaxxx"
+      ],
+      "metadata_refs": [
+        "Adapter007.JPG"
+      ],
+      "connector": {
+        "pin_count": 40,
+        "rows": [
+          {
+            "pins": [
+              1,
+              40
+            ]
+          },
+          {
+            "pins": [
+              2,
+              39
+            ]
+          },
+          {
+            "pins": [
+              3,
+              38
+            ]
+          },
+          {
+            "pins": [
+              4,
+              37
+            ]
+          },
+          {
+            "pins": [
+              5,
+              36
+            ]
+          },
+          {
+            "pins": [
+              6,
+              35
+            ]
+          },
+          {
+            "pins": [
+              7,
+              34
+            ]
+          },
+          {
+            "pins": [
+              8,
+              33
+            ]
+          },
+          {
+            "pins": [
+              9,
+              32
+            ]
+          },
+          {
+            "pins": [
+              10,
+              31
+            ]
+          },
+          {
+            "pins": [
+              11,
+              30
+            ]
+          },
+          {
+            "pins": [
+              12,
+              29
+            ]
+          },
+          {
+            "pins": [
+              13,
+              28
+            ]
+          },
+          {
+            "pins": [
+              14,
+              27
+            ]
+          },
+          {
+            "pins": [
+              15,
+              26
+            ]
+          },
+          {
+            "pins": [
+              16,
+              25
+            ]
+          },
+          {
+            "pins": [
+              17,
+              24
+            ]
+          },
+          {
+            "pins": [
+              18,
+              23
+            ]
+          },
+          {
+            "pins": [
+              19,
+              22
+            ]
+          },
+          {
+            "pins": [
+              20,
+              21
+            ]
+          }
+        ],
+        "orientation": "Adapter pin 1 upper-left; TQFP64 orientation mark upper-left."
+      },
+      "connections": [
+        {
+          "pins": [
+            39
+          ],
+          "signal": "PA0",
+          "target": "TQFP64 pin 51"
+        },
+        {
+          "pins": [
+            9
+          ],
+          "signal": "RESET",
+          "target": "TQFP64 pin 20"
+        },
+        {
+          "pins": [
+            19
+          ],
+          "signal": "XTAL1",
+          "target": "TQFP64 pin 24"
+        },
+        {
+          "pins": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "signal": "PB0..PB7",
+          "target": "TQFP64 PB0..PB7"
+        },
+        {
+          "pins": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "signal": "PD1..PD7",
+          "target": "TQFP64 PD1..PD7"
+        },
+        {
+          "pins": [
+            40
+          ],
+          "signal": "VCC",
+          "target": "TQFP64 pins 64, 52, and 21"
+        },
+        {
+          "pins": [
+            20
+          ],
+          "signal": "GND",
+          "target": "TQFP64 pins 63, 53, and 22"
+        }
+      ],
+      "facts": [
+        "Use the QFP64-to-DIP40 parallel-programming mapping for ATmega TQFP64 devices.",
+        "Other device pins are stated to be unused and left floating."
+      ],
+      "notes": [
+        "The exact ATmega variant is unspecified; check the printed VCC/GND groups against its datasheet."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t56-kb9012",
+      "filename": "T56KB9012ADP.jpg",
+      "kind": "adapter",
+      "title": "T56 SV-KB901x adapter",
+      "programmers": [
+        "T56"
+      ],
+      "models": [
+        "KB901x"
+      ],
+      "metadata_refs": [
+        "Adapter010.JPG"
+      ],
+      "connector": null,
+      "connections": [],
+      "facts": [
+        "The interface labels are /CS, MISO, GND, VCC, CLK, and MOSI.",
+        "The six labeled SPI contacts (/CS, MISO, GND, VCC, CLK, MOSI) are at the bottom of the long adapter/ZIF body.",
+        "The six labeled SPI signals use an eight-contact interface; two positions are unlabeled.",
+        "The adapter body is marked PIN1."
+      ],
+      "notes": [
+        "The full package-to-interface pin mapping is unspecified."
+      ],
+      "asset_group": "current",
+      "adapter_visual": {
+        "kind": "adapter",
+        "package_label": "KB901x LQFP128",
+        "adapter_label": "T56 SV-KB901x adapter",
+        "programmer_label": "T56",
+        "pin1_label": "PIN1",
+        "placement_note": "Place the LQFP package in the central footprint; the six SPI contacts are at the bottom of the adapter body.",
+        "interface_label": "SPI: /CS, MISO, GND, VCC, CLK, MOSI",
+        "package_shape": "quad",
+        "package_pins": 128,
+        "interface_labels_left": [
+          "/CS",
+          "MISO",
+          "unlabeled",
+          "GND"
+        ],
+        "interface_labels_right": [
+          "VCC",
+          "unlabeled",
+          "CLK",
+          "MOSI"
+        ],
+        "interface_position": "bottom",
+        "interface_pin_count": 8
+      }
+    },
+    {
+      "id": "current-t56-t56",
+      "filename": "T56T56.jpg",
+      "kind": "adapter",
+      "title": "Universal TSOP28-to-TSOP56 adapter",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter011.JPG"
+      ],
+      "connector": {
+        "pin_count": 48,
+        "rows": [
+          {
+            "pins": [
+              1,
+              48
+            ]
+          },
+          {
+            "pins": [
+              2,
+              47
+            ]
+          },
+          {
+            "pins": [
+              3,
+              46
+            ]
+          },
+          {
+            "pins": [
+              4,
+              45
+            ]
+          },
+          {
+            "pins": [
+              5,
+              44
+            ]
+          },
+          {
+            "pins": [
+              6,
+              43
+            ]
+          },
+          {
+            "pins": [
+              7,
+              42
+            ]
+          },
+          {
+            "pins": [
+              8,
+              41
+            ]
+          },
+          {
+            "pins": [
+              9,
+              40
+            ]
+          },
+          {
+            "pins": [
+              10,
+              39
+            ]
+          },
+          {
+            "pins": [
+              11,
+              38
+            ]
+          },
+          {
+            "pins": [
+              12,
+              37
+            ]
+          },
+          {
+            "pins": [
+              13,
+              36
+            ]
+          },
+          {
+            "pins": [
+              14,
+              35
+            ]
+          },
+          {
+            "pins": [
+              15,
+              34
+            ]
+          },
+          {
+            "pins": [
+              16,
+              33
+            ]
+          },
+          {
+            "pins": [
+              17,
+              32
+            ]
+          },
+          {
+            "pins": [
+              18,
+              31
+            ]
+          },
+          {
+            "pins": [
+              19,
+              30
+            ]
+          },
+          {
+            "pins": [
+              20,
+              29
+            ]
+          },
+          {
+            "pins": [
+              21,
+              28
+            ]
+          },
+          {
+            "pins": [
+              22,
+              27
+            ]
+          },
+          {
+            "pins": [
+              23,
+              26
+            ]
+          },
+          {
+            "pins": [
+              24,
+              25
+            ]
+          }
+        ],
+        "orientation": "Package pin-1 marks and socket PIN1 are shown."
+      },
+      "connections": [],
+      "facts": [
+        "For TSOP28, TSOP32, TSOP40, TSOP48, and TSOP56 packages.",
+        "Connect TSOP32, TSOP40, and TSOP48 packages one by one.",
+        "The outer contacts are numbered 1..24 and 48..25.",
+        "An ISP header is numbered 1..8."
+      ],
+      "notes": [
+        "Model SN-ADP-056-0.5; individual trace endpoints are unspecified."
+      ],
+      "asset_group": "current"
+    },
+    {
+      "id": "current-t56-t32a",
+      "filename": "T56T32A.jpg",
+      "kind": "adapter",
+      "title": "TSOP32 to socket adapter with pin 9 to socket 1",
+      "programmers": [
+        "T56"
+      ],
+      "models": [],
+      "metadata_refs": [
+        "Adapter013.JPG"
+      ],
+      "connector": {
+        "pin_count": 48,
+        "rows": [
+          {
+            "pins": [
+              1,
+              48
+            ]
+          },
+          {
+            "pins": [
+              2,
+              47
+            ]
+          },
+          {
+            "pins": [
+              3,
+              46
+            ]
+          },
+          {
+            "pins": [
+              4,
+              45
+            ]
+          },
+          {
+            "pins": [
+              5,
+              44
+            ]
+          },
+          {
+            "pins": [
+              6,
+              43
+            ]
+          },
+          {
+            "pins": [
+              7,
+              42
+            ]
+          },
+          {
+            "pins": [
+              8,
+              41
+            ]
+          },
+          {
+            "pins": [
+              9,
+              40
+            ]
+          },
+          {
+            "pins": [
+              10,
+              39
+            ]
+          },
+          {
+            "pins": [
+              11,
+              38
+            ]
+          },
+          {
+            "pins": [
+              12,
+              37
+            ]
+          },
+          {
+            "pins": [
+              13,
+              36
+            ]
+          },
+          {
+            "pins": [
+              14,
+              35
+            ]
+          },
+          {
+            "pins": [
+              15,
+              34
+            ]
+          },
+          {
+            "pins": [
+              16,
+              33
+            ]
+          },
+          {
+            "pins": [
+              17,
+              32
+            ]
+          },
+          {
+            "pins": [
+              18,
+              31
+            ]
+          },
+          {
+            "pins": [
+              19,
+              30
+            ]
+          },
+          {
+            "pins": [
+              20,
+              29
+            ]
+          },
+          {
+            "pins": [
+              21,
+              28
+            ]
+          },
+          {
+            "pins": [
+              22,
+              27
+            ]
+          },
+          {
+            "pins": [
+              23,
+              26
+            ]
+          },
+          {
+            "pins": [
+              24,
+              25
+            ]
+          }
+        ],
+        "orientation": "Programmer ZIF48; adapter socket contact 1 aligns with programmer ZIF9."
+      },
+      "connections": [
+        {
+          "pins": [
+            9
+          ],
+          "signal": "Adapter socket contact 1",
+          "target": "TSOP32 package pin 9"
+        }
+      ],
+      "facts": [
+        "Use this TSOP32-to-DIP32 adapter.",
+        "Adapter socket contact 1 connects to TSOP32 package pin 9 and is reached from programmer ZIF9.",
+        "Programmer ZIF contacts are labeled 1..24 and 48..25; ZIF1..8 and ZIF41..48 are unused."
+      ],
+      "notes": [
+        "The remaining dense trace endpoints are unspecified."
+      ],
+      "asset_group": "current",
+      "connection_heading": "Programmer ZIF pin mapping"
+    }
+  ]
+}

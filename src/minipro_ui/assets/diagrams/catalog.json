@@ -1,0 +1,663 @@
+{
+  "assets": {
+    "current/Adapter001.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter001.jpg",
+      "id": "current-tl866ii-adapter001",
+      "svg_path": "current/Adapter001.svg",
+      "title": "TSOP48 adapter"
+    },
+    "current/Adapter002.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter002.jpg",
+      "id": "current-tl866ii-adapter002",
+      "svg_path": "current/Adapter002.svg",
+      "title": "SOP44 adapter"
+    },
+    "current/Adapter003.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter003.jpg",
+      "id": "current-tl866ii-adapter003",
+      "svg_path": "current/Adapter003.svg",
+      "title": "TSOP40-A 8-bit adapter"
+    },
+    "current/Adapter004.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter004.jpg",
+      "id": "current-tl866ii-adapter004",
+      "svg_path": "current/Adapter004.svg",
+      "title": "TSOP40-B 16-bit adapter"
+    },
+    "current/Adapter005.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter005.jpg",
+      "id": "current-tl866ii-adapter005",
+      "svg_path": "current/Adapter005.svg",
+      "title": "TSOP32 adapter"
+    },
+    "current/Adapter006.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter006.jpg",
+      "id": "current-tl866ii-adapter006",
+      "svg_path": "current/Adapter006.svg",
+      "title": "SOP56 adapter for AM29BL802 and AM29BL162"
+    },
+    "current/Adapter007.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter007.jpg",
+      "id": "current-tl866ii-adapter007",
+      "svg_path": "current/Adapter007.svg",
+      "title": "ATmega TQFP64 to 40-pin parallel adapter"
+    },
+    "current/Adapter008.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter008.jpg",
+      "id": "current-tl866ii-adapter008",
+      "svg_path": "current/Adapter008.svg",
+      "title": "NAND TSOP48 adapter"
+    },
+    "current/Adapter010.jpg": {
+      "asset_group": "current",
+      "filename": "Adapter010.jpg",
+      "id": "current-tl866ii-adapter010",
+      "svg_path": "current/Adapter010.svg",
+      "title": "SV-KB901x adapter"
+    },
+    "current/AdapterITE.jpg": {
+      "asset_group": "current",
+      "filename": "AdapterITE.jpg",
+      "id": "current-t56-adapterite",
+      "svg_path": "current/AdapterITE.svg",
+      "title": "ITE8xxx TQFP128 adapter"
+    },
+    "current/ICP001.jpg": {
+      "asset_group": "current",
+      "filename": "ICP001.jpg",
+      "id": "current-icp001",
+      "svg_path": "current/ICP001.svg",
+      "title": "ATmel AVR SPI ISP"
+    },
+    "current/ICP002.jpg": {
+      "asset_group": "current",
+      "filename": "ICP002.jpg",
+      "id": "current-icp002",
+      "svg_path": "current/ICP002.svg",
+      "title": "Microchip ICSP"
+    },
+    "current/ICP003.jpg": {
+      "asset_group": "current",
+      "filename": "ICP003.jpg",
+      "id": "current-icp003",
+      "svg_path": "current/ICP003.svg",
+      "title": "SyncMos SM59Rxx two-wire"
+    },
+    "current/ICP004.jpg": {
+      "asset_group": "current",
+      "filename": "ICP004.jpg",
+      "id": "current-icp004",
+      "svg_path": "current/ICP004.svg",
+      "title": "SyncMos SM59Dxx three-wire"
+    },
+    "current/ICP005.jpg": {
+      "asset_group": "current",
+      "filename": "ICP005.jpg",
+      "id": "current-icp005",
+      "svg_path": "current/ICP005.svg",
+      "title": "25 SPI bus EEPROM"
+    },
+    "current/ICP006.jpg": {
+      "asset_group": "current",
+      "filename": "ICP006.jpg",
+      "id": "current-icp006",
+      "svg_path": "current/ICP006.svg",
+      "title": "ATmega 64/128 AVR SPI ISP"
+    },
+    "current/ICP007.jpg": {
+      "asset_group": "current",
+      "filename": "ICP007.jpg",
+      "id": "current-icp007",
+      "svg_path": "current/ICP007.svg",
+      "title": "ATmega AVR SPI download 2"
+    },
+    "current/ICP008.jpg": {
+      "asset_group": "current",
+      "filename": "ICP008.jpg",
+      "id": "current-icp008",
+      "svg_path": "current/ICP008.svg",
+      "title": "ATmega AVR SPI download 3"
+    },
+    "current/ICP009.jpg": {
+      "asset_group": "current",
+      "filename": "ICP009.jpg",
+      "id": "current-icp009",
+      "svg_path": "current/ICP009.svg",
+      "title": "25 SPI NOR flash"
+    },
+    "current/ICP010.jpg": {
+      "asset_group": "current",
+      "filename": "ICP010.jpg",
+      "id": "current-icp010",
+      "svg_path": "current/ICP010.svg",
+      "title": "Microwire 93xx EEPROM"
+    },
+    "current/ICP011.jpg": {
+      "asset_group": "current",
+      "filename": "ICP011.jpg",
+      "id": "current-icp011",
+      "svg_path": "current/ICP011.svg",
+      "title": "24xx I2C EEPROM"
+    },
+    "current/ICP012.jpg": {
+      "asset_group": "current",
+      "filename": "ICP012.jpg",
+      "id": "current-icp012",
+      "svg_path": "current/ICP012.svg",
+      "title": "SPI KB901x/9022 driver output"
+    },
+    "current/T48ICP001.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP001.jpg",
+      "id": "t48-icp001",
+      "svg_path": "current/T48ICP001.svg",
+      "title": "ATmega AVR SPI ISP"
+    },
+    "current/T48ICP002.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP002.jpg",
+      "id": "t48-icp002",
+      "svg_path": "current/T48ICP002.svg",
+      "title": "Microchip ICSP"
+    },
+    "current/T48ICP005.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP005.jpg",
+      "id": "t48-icp005",
+      "svg_path": "current/T48ICP005.svg",
+      "title": "SPI bus EEPROM"
+    },
+    "current/T48ICP006.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP006.jpg",
+      "id": "t48-icp006",
+      "svg_path": "current/T48ICP006.svg",
+      "title": "ATmega 64/128 AVR SPI ISP"
+    },
+    "current/T48ICP007.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP007.jpg",
+      "id": "t48-icp007",
+      "svg_path": "current/T48ICP007.svg",
+      "title": "ATmega AVR SPI download 2"
+    },
+    "current/T48ICP008.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP008.jpg",
+      "id": "t48-icp008",
+      "svg_path": "current/T48ICP008.svg",
+      "title": "Atmel MCU 008 AVR SPI ISP"
+    },
+    "current/T48ICP009.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP009.jpg",
+      "id": "t48-icp009",
+      "svg_path": "current/T48ICP009.svg",
+      "title": "SPI bus EEPROM"
+    },
+    "current/T48ICP010.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP010.jpg",
+      "id": "t48-icp010",
+      "svg_path": "current/T48ICP010.svg",
+      "title": "Microwire 93xx EEPROM"
+    },
+    "current/T48ICP011.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP011.jpg",
+      "id": "t48-icp011",
+      "svg_path": "current/T48ICP011.svg",
+      "title": "24xx I2C EEPROM"
+    },
+    "current/T48ICP012.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP012.jpg",
+      "id": "t48-icp012",
+      "svg_path": "current/T48ICP012.svg",
+      "title": "SPI KB901x/9022"
+    },
+    "current/T48ICP064.jpg": {
+      "asset_group": "current",
+      "filename": "T48ICP064.jpg",
+      "id": "t48-icp064",
+      "svg_path": "current/T48ICP064.svg",
+      "title": "eMMC ISP driver outputs"
+    },
+    "current/T48KB9012ADP.jpg": {
+      "asset_group": "current",
+      "filename": "T48KB9012ADP.jpg",
+      "id": "current-t48-kb9012",
+      "svg_path": "current/T48KB9012ADP.svg",
+      "title": "T48 SV-KB901x adapter"
+    },
+    "current/T48SOP44.jpg": {
+      "asset_group": "current",
+      "filename": "T48SOP44.jpg",
+      "id": "current-t48-sop44",
+      "svg_path": "current/T48SOP44.svg",
+      "title": "T48 SOP44 adapter"
+    },
+    "current/T48T32.jpg": {
+      "asset_group": "current",
+      "filename": "T48T32.jpg",
+      "id": "current-t48-t32",
+      "svg_path": "current/T48T32.svg",
+      "title": "TSOP32 to DIP32 adapter"
+    },
+    "current/T48T32A.jpg": {
+      "asset_group": "current",
+      "filename": "T48T32A.jpg",
+      "id": "current-t48-t32a",
+      "svg_path": "current/T48T32A.svg",
+      "title": "TSOP32 to DIP32 adapter with pin 9 to ZIF1"
+    },
+    "current/T48T40B.jpg": {
+      "asset_group": "current",
+      "filename": "T48T40B.jpg",
+      "id": "current-t48-t40b",
+      "svg_path": "current/T48T40B.svg",
+      "title": "TSOP40 to DIP40 adapter"
+    },
+    "current/T48T48.jpg": {
+      "asset_group": "current",
+      "filename": "T48T48.jpg",
+      "id": "current-t48-t48",
+      "svg_path": "current/T48T48.svg",
+      "title": "TSOP40 and TSOP48 NOR flash adapter"
+    },
+    "current/T48T48N.jpg": {
+      "asset_group": "current",
+      "filename": "T48T48N.jpg",
+      "id": "current-t48-t48n",
+      "svg_path": "current/T48T48N.svg",
+      "title": "T48 NAND TSOP48-2 adapter"
+    },
+    "current/T48T56.jpg": {
+      "asset_group": "current",
+      "filename": "T48T56.jpg",
+      "id": "current-t48-t56",
+      "svg_path": "current/T48T56.svg",
+      "title": "T48 TSOP56 adapter"
+    },
+    "current/T48TQFP64_ATMEGA.jpg": {
+      "asset_group": "current",
+      "filename": "T48TQFP64_ATMEGA.jpg",
+      "id": "current-t48-tqfp64",
+      "svg_path": "current/T48TQFP64_ATMEGA.svg",
+      "title": "ATmega TQFP64 to DIP40 parallel adapter"
+    },
+    "current/T56ICP001.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP001.jpg",
+      "id": "t56-icp001",
+      "svg_path": "current/T56ICP001.svg",
+      "title": "ATmega AVR ISP"
+    },
+    "current/T56ICP002.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP002.jpg",
+      "id": "t56-icp002",
+      "svg_path": "current/T56ICP002.svg",
+      "title": "Microchip ICSP"
+    },
+    "current/T56ICP005.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP005.jpg",
+      "id": "t56-icp005",
+      "svg_path": "current/T56ICP005.svg",
+      "title": "SPI bus EEPROM"
+    },
+    "current/T56ICP006.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP006.jpg",
+      "id": "t56-icp006",
+      "svg_path": "current/T56ICP006.svg",
+      "title": "ATmega 64/128 AVR SPI ISP"
+    },
+    "current/T56ICP007.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP007.jpg",
+      "id": "t56-icp007",
+      "svg_path": "current/T56ICP007.svg",
+      "title": "ATmega AVR SPI download 2"
+    },
+    "current/T56ICP008.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP008.jpg",
+      "id": "t56-icp008",
+      "svg_path": "current/T56ICP008.svg",
+      "title": "Atmel MCU 008 AVR SPI ISP"
+    },
+    "current/T56ICP009.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP009.jpg",
+      "id": "t56-icp009",
+      "svg_path": "current/T56ICP009.svg",
+      "title": "SPI bus EEPROM"
+    },
+    "current/T56ICP010.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP010.jpg",
+      "id": "t56-icp010",
+      "svg_path": "current/T56ICP010.svg",
+      "title": "Microwire 93xx EEPROM"
+    },
+    "current/T56ICP011.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP011.jpg",
+      "id": "t56-icp011",
+      "svg_path": "current/T56ICP011.svg",
+      "title": "24xx I2C EEPROM"
+    },
+    "current/T56ICP012.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP012.jpg",
+      "id": "t56-icp012",
+      "svg_path": "current/T56ICP012.svg",
+      "title": "SPI KB901x/9022"
+    },
+    "current/T56ICP014.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP014.jpg",
+      "id": "t56-icp014",
+      "svg_path": "current/T56ICP014.svg",
+      "title": "AT17LVxxx serial programming"
+    },
+    "current/T56ICP064.jpg": {
+      "asset_group": "current",
+      "filename": "T56ICP064.jpg",
+      "id": "t56-icp064",
+      "svg_path": "current/T56ICP064.svg",
+      "title": "eMMC ISP 4-bit connection"
+    },
+    "current/T56KB9012ADP.jpg": {
+      "asset_group": "current",
+      "filename": "T56KB9012ADP.jpg",
+      "id": "current-t56-kb9012",
+      "svg_path": "current/T56KB9012ADP.svg",
+      "title": "T56 SV-KB901x adapter"
+    },
+    "current/T56P56.jpg": {
+      "asset_group": "current",
+      "filename": "T56P56.jpg",
+      "id": "current-t56-p56",
+      "svg_path": "current/T56P56.svg",
+      "title": "AM29BL802/162 SSO56 adapter"
+    },
+    "current/T56SOP44.jpg": {
+      "asset_group": "current",
+      "filename": "T56SOP44.jpg",
+      "id": "current-t56-sop44",
+      "svg_path": "current/T56SOP44.svg",
+      "title": "SOP44 to DIP44 adapter"
+    },
+    "current/T56T32A.jpg": {
+      "asset_group": "current",
+      "filename": "T56T32A.jpg",
+      "id": "current-t56-t32a",
+      "svg_path": "current/T56T32A.svg",
+      "title": "TSOP32 to socket adapter with pin 9 to socket 1"
+    },
+    "current/T56T48.jpg": {
+      "asset_group": "current",
+      "filename": "T56T48.jpg",
+      "id": "current-t56-t48",
+      "svg_path": "current/T56T48.svg",
+      "title": "Universal TSOP28-to-TSOP48 adapter"
+    },
+    "current/T56T56.jpg": {
+      "asset_group": "current",
+      "filename": "T56T56.jpg",
+      "id": "current-t56-t56",
+      "svg_path": "current/T56T56.svg",
+      "title": "Universal TSOP28-to-TSOP56 adapter"
+    },
+    "current/T56TQFP64_ATMEGA.jpg": {
+      "asset_group": "current",
+      "filename": "T56TQFP64_ATMEGA.jpg",
+      "id": "current-t56-tqfp64",
+      "svg_path": "current/T56TQFP64_ATMEGA.svg",
+      "title": "ATmega TQFP64 to DIP40 parallel adapter"
+    },
+    "current/T86T32A.jpg": {
+      "asset_group": "current",
+      "filename": "T86T32A.jpg",
+      "id": "current-t86-t32a",
+      "svg_path": "current/T86T32A.svg",
+      "title": "TSOP32 to DIP32 adapter with pin 9 to ZIF1"
+    },
+    "legacy/Adapter001.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter001.jpg",
+      "id": "legacy-tl866a-adapter001",
+      "svg_path": "legacy/Adapter001.svg",
+      "title": "TSOP48 adapter"
+    },
+    "legacy/Adapter002.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter002.jpg",
+      "id": "legacy-tl866a-adapter002",
+      "svg_path": "legacy/Adapter002.svg",
+      "title": "SOP44 adapter"
+    },
+    "legacy/Adapter003.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter003.jpg",
+      "id": "legacy-tl866a-adapter003",
+      "svg_path": "legacy/Adapter003.svg",
+      "title": "TSOP40-A 8-bit adapter"
+    },
+    "legacy/Adapter004.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter004.jpg",
+      "id": "legacy-tl866a-adapter004",
+      "svg_path": "legacy/Adapter004.svg",
+      "title": "TSOP40-B 16-bit adapter"
+    },
+    "legacy/Adapter005.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter005.jpg",
+      "id": "legacy-tl866a-adapter005",
+      "svg_path": "legacy/Adapter005.svg",
+      "title": "TSOP32 adapter"
+    },
+    "legacy/Adapter006.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter006.jpg",
+      "id": "legacy-tl866a-adapter006",
+      "svg_path": "legacy/Adapter006.svg",
+      "title": "SOP56 adapter for AM29BL802 and AM29BL162"
+    },
+    "legacy/Adapter007.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter007.jpg",
+      "id": "legacy-tl866a-adapter007",
+      "svg_path": "legacy/Adapter007.svg",
+      "title": "ATmega TQFP64 to 40-pin parallel adapter"
+    },
+    "legacy/Adapter008.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter008.jpg",
+      "id": "legacy-tl866a-adapter008",
+      "svg_path": "legacy/Adapter008.svg",
+      "title": "SN006 25-series 1.8 V 8-pin flash adapter"
+    },
+    "legacy/Adapter009.jpg": {
+      "asset_group": "legacy",
+      "filename": "Adapter009.jpg",
+      "id": "legacy-tl866a-adapter009",
+      "svg_path": "legacy/Adapter009.svg",
+      "title": "SN007 25-series 1.8 V 16-pin flash adapter"
+    },
+    "legacy/ICP001.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP001.jpg",
+      "id": "legacy-icp001",
+      "svg_path": "legacy/ICP001.svg",
+      "title": "ATmel AVR SPI ISP"
+    },
+    "legacy/ICP002.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP002.jpg",
+      "id": "legacy-icp002",
+      "svg_path": "legacy/ICP002.svg",
+      "title": "Microchip ICSP"
+    },
+    "legacy/ICP003.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP003.jpg",
+      "id": "legacy-icp003",
+      "svg_path": "legacy/ICP003.svg",
+      "title": "SyncMos SM39Rxx/SM59Rxx two-wire"
+    },
+    "legacy/ICP004.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP004.jpg",
+      "id": "legacy-icp004",
+      "svg_path": "legacy/ICP004.svg",
+      "title": "SyncMos SM59Dxx three-wire"
+    },
+    "legacy/ICP005.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP005.jpg",
+      "id": "legacy-icp005",
+      "svg_path": "legacy/ICP005.svg",
+      "title": "AT45DBxxx SPI"
+    },
+    "legacy/ICP006.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP006.jpg",
+      "id": "legacy-icp006",
+      "svg_path": "legacy/ICP006.svg",
+      "title": "ATmega 64/128 AVR SPI ISP"
+    },
+    "legacy/ICP007.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP007.jpg",
+      "id": "legacy-icp007",
+      "svg_path": "legacy/ICP007.svg",
+      "title": "ATmega AVR SPI download 2"
+    },
+    "legacy/ICP008.jpg": {
+      "asset_group": "legacy",
+      "filename": "ICP008.jpg",
+      "id": "legacy-icp008",
+      "svg_path": "legacy/ICP008.svg",
+      "title": "ATmega AVR SPI download 3"
+    }
+  },
+  "mappings": {
+    "T48": {
+      "Adapter001.JPG": "current/T48T48.jpg",
+      "Adapter002.JPG": "current/T48SOP44.jpg",
+      "Adapter003.JPG": "current/T48T48.jpg",
+      "Adapter004.JPG": "current/T48T40B.jpg",
+      "Adapter005.JPG": "current/T48T32.jpg",
+      "Adapter007.JPG": "current/T48TQFP64_ATMEGA.jpg",
+      "Adapter008.JPG": "current/T48T48N.jpg",
+      "Adapter010.JPG": "current/T48KB9012ADP.jpg",
+      "Adapter011.JPG": "current/T48T56.jpg",
+      "Adapter013.JPG": "current/T48T32A.jpg",
+      "ICP001.JPG": "current/T48ICP001.jpg",
+      "ICP002.JPG": "current/T48ICP002.jpg",
+      "ICP005.JPG": "current/T48ICP005.jpg",
+      "ICP006.JPG": "current/T48ICP006.jpg",
+      "ICP007.JPG": "current/T48ICP007.jpg",
+      "ICP008.JPG": "current/T48ICP008.jpg",
+      "ICP009.JPG": "current/T48ICP009.jpg",
+      "ICP010.JPG": "current/T48ICP010.jpg",
+      "ICP011.JPG": "current/T48ICP011.jpg",
+      "ICP012.JPG": "current/T48ICP012.jpg",
+      "ICP064.JPG": "current/T48ICP064.jpg"
+    },
+    "T56": {
+      "Adapter001.JPG": "current/T56T48.jpg",
+      "Adapter002.JPG": "current/T56SOP44.jpg",
+      "Adapter003.JPG": "current/T56T48.jpg",
+      "Adapter004.JPG": "current/T56T48.jpg",
+      "Adapter005.JPG": "current/T56T48.jpg",
+      "Adapter006.JPG": "current/T56P56.jpg",
+      "Adapter007.JPG": "current/T56TQFP64_ATMEGA.jpg",
+      "Adapter008.JPG": "current/T56T48.jpg",
+      "Adapter010.JPG": "current/T56KB9012ADP.jpg",
+      "Adapter011.JPG": "current/T56T56.jpg",
+      "Adapter012.JPG": "current/AdapterITE.jpg",
+      "Adapter013.JPG": "current/T56T32A.jpg",
+      "ICP001.JPG": "current/T56ICP001.jpg",
+      "ICP002.JPG": "current/T56ICP002.jpg",
+      "ICP005.JPG": "current/T56ICP005.jpg",
+      "ICP006.JPG": "current/T56ICP006.jpg",
+      "ICP007.JPG": "current/T56ICP007.jpg",
+      "ICP008.JPG": "current/T56ICP008.jpg",
+      "ICP009.JPG": "current/T56ICP009.jpg",
+      "ICP010.JPG": "current/T56ICP010.jpg",
+      "ICP011.JPG": "current/T56ICP011.jpg",
+      "ICP012.JPG": "current/T56ICP012.jpg",
+      "ICP014.JPG": "current/T56ICP014.jpg",
+      "ICP064.JPG": "current/T56ICP064.jpg"
+    },
+    "TL866A": {
+      "Adapter001.JPG": "legacy/Adapter001.jpg",
+      "Adapter002.JPG": "legacy/Adapter002.jpg",
+      "Adapter003.JPG": "legacy/Adapter003.jpg",
+      "Adapter004.JPG": "legacy/Adapter004.jpg",
+      "Adapter005.JPG": "legacy/Adapter005.jpg",
+      "Adapter006.JPG": "legacy/Adapter006.jpg",
+      "Adapter007.JPG": "legacy/Adapter007.jpg",
+      "Adapter008.JPG": "legacy/Adapter008.jpg",
+      "Adapter009.JPG": "legacy/Adapter009.jpg",
+      "ICP001.JPG": "legacy/ICP001.jpg",
+      "ICP002.JPG": "legacy/ICP002.jpg",
+      "ICP003.JPG": "legacy/ICP003.jpg",
+      "ICP004.JPG": "legacy/ICP004.jpg",
+      "ICP005.JPG": "legacy/ICP005.jpg",
+      "ICP006.JPG": "legacy/ICP006.jpg",
+      "ICP007.JPG": "legacy/ICP007.jpg",
+      "ICP008.JPG": "legacy/ICP008.jpg"
+    },
+    "TL866CS": {
+      "Adapter001.JPG": "legacy/Adapter001.jpg",
+      "Adapter002.JPG": "legacy/Adapter002.jpg",
+      "Adapter003.JPG": "legacy/Adapter003.jpg",
+      "Adapter004.JPG": "legacy/Adapter004.jpg",
+      "Adapter005.JPG": "legacy/Adapter005.jpg",
+      "Adapter006.JPG": "legacy/Adapter006.jpg",
+      "Adapter007.JPG": "legacy/Adapter007.jpg",
+      "Adapter008.JPG": "legacy/Adapter008.jpg",
+      "Adapter009.JPG": "legacy/Adapter009.jpg"
+    },
+    "TL866II": {
+      "Adapter001.JPG": "current/Adapter001.jpg",
+      "Adapter002.JPG": "current/Adapter002.jpg",
+      "Adapter003.JPG": "current/Adapter003.jpg",
+      "Adapter004.JPG": "current/Adapter004.jpg",
+      "Adapter005.JPG": "current/Adapter005.jpg",
+      "Adapter006.JPG": "current/Adapter006.jpg",
+      "Adapter007.JPG": "current/Adapter007.jpg",
+      "Adapter008.JPG": "current/Adapter008.jpg",
+      "Adapter010.JPG": "current/Adapter010.jpg",
+      "Adapter013.JPG": "current/T86T32A.jpg",
+      "ICP001.JPG": "current/ICP001.jpg",
+      "ICP002.JPG": "current/ICP002.jpg",
+      "ICP003.JPG": "current/ICP003.jpg",
+      "ICP004.JPG": "current/ICP004.jpg",
+      "ICP005.JPG": "current/ICP005.jpg",
+      "ICP006.JPG": "current/ICP006.jpg",
+      "ICP007.JPG": "current/ICP007.jpg",
+      "ICP008.JPG": "current/ICP008.jpg",
+      "ICP009.JPG": "current/ICP009.jpg",
+      "ICP010.JPG": "current/ICP010.jpg",
+      "ICP011.JPG": "current/ICP011.jpg",
+      "ICP012.JPG": "current/ICP012.jpg"
+    }
+  },
+  "schema_version": 1
+}
